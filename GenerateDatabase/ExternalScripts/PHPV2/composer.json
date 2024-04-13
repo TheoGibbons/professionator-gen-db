@@ -1,0 +1,20 @@
+{
+  "name": "theogibbons/blizzard-test-app",
+  "require": {
+    "francis-schiavo/blizzard_api": "dev-master#23ccc9e4a3c05d9c9b9ed74425de44115a9e0d86",
+    "ext-curl": "*",
+    "ext-mbstring": "*",
+    "ext-simplexml": "*"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/TheoGibbons/blizzard_api_php.git"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Professionator\\": "src/"
+    }
+  }
+}

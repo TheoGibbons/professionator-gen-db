@@ -1,0 +1,74 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "d360535bfee5f94fc69113279d321c11",
+    "packages": [
+        {
+            "name": "francis-schiavo/blizzard_api",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TheoGibbons/blizzard_api_php.git",
+                "reference": "23ccc9e4a3c05d9c9b9ed74425de44115a9e0d86"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TheoGibbons/blizzard_api_php/zipball/23ccc9e4a3c05d9c9b9ed74425de44115a9e0d86",
+                "reference": "23ccc9e4a3c05d9c9b9ed74425de44115a9e0d86",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-mbstring": "*"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.6.7"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BlizzardApi\\": "src/",
+                    "BlizzardApi\\Tests\\": "tests/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Francis Schiavo",
+                    "email": "francischiavo@gmail.com"
+                }
+            ],
+            "description": "PHP client for Blizzard web APIs",
+            "keywords": [
+                "api",
+                "blizzard",
+                "client"
+            ],
+            "support": {
+                "source": "https://github.com/TheoGibbons/blizzard_api_php/tree/master"
+            },
+            "time": "2024-01-17T23:34:44+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "francis-schiavo/blizzard_api": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "ext-curl": "*",
+        "ext-mbstring": "*",
+        "ext-simplexml": "*"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}
