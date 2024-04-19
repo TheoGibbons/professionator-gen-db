@@ -20,7 +20,7 @@ class Utils
             return $value;
         }
 
-        if(is_numeric($value)) {
+        if (is_numeric($value)) {
             return $value . '';
         }
 
@@ -66,12 +66,59 @@ class Utils
             return file_get_contents($cacheFilePath);
         }
 
-        $contents = file_get_contents($url);
+        $contents = @file_get_contents($url);
+
+        if (!$contents) {
+            throw new \Exception("Could not get contents from url: $url");
+        }
 
         file_put_contents($cacheFilePath, $contents);
 
         return $contents;
 
+    }
+
+    public static function getLocationNameFromId(mixed $location): ?string
+    {
+
+        $url = "https://www.wowhead.com/classic/zone=$location";
+        $contents = self::getFileContents($url);
+
+        if (preg_match('/<title>(.*?) - Zone - .*World of Warcraft<\/title>/', $contents, $matches)) {
+            return $matches[1];
+        }
+
+        return null;
+
+    }
+
+    /**
+     * Pass in a string like "Elwynn Forest" and get back "EF"
+     */
+    public static function abbreviate(?string $string): ?string
+    {
+        if ($string) {
+            $return = '';
+
+            foreach (explode(' ', $string) as $word) {
+                $return .= $word[0];
+            }
+
+            return strtoupper($return);
+
+        }
+        return $string;
+    }
+
+    public static function surroundValuesWith(array $array, string $surroundWith): array
+    {
+        $return = [];
+
+        foreach ($array as $key => $value) {
+            $return[$key] = $surroundWith . $value . $surroundWith;
+        }
+
+        return $return;
     }
 
 }

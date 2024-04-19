@@ -13,7 +13,7 @@ header("Content-type: text/plain");
 
 function dj()
 {
-    die(str_replace('\\/', '/', json_encode(count(func_get_args()) > 1 ? func_get_args() : func_get_args()[0])));
+    die(str_replace('\\/', '/', json_encode(count(func_get_args()) > 1 ? func_get_args() : func_get_args()[0], JSON_PRETTY_PRINT)));
 }
 
 function l($value)

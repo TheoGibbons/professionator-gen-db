@@ -2,12 +2,10 @@
 
 namespace Professionator\Models;
 
-use Professionator\RecipeTaughtByTrait;
 use Professionator\Utils;
 
 class Recipe
 {
-    use RecipeTaughtByTrait;
 
     private array $data;
 
@@ -29,26 +27,47 @@ class Recipe
     public function toLua()
     {
 
+        $taughtByAlliance = $this->getTaughtBy('alliance');
+        $taughtByHorde = $this->getTaughtBy('horde');
+
+//        if ($this->getId() == 13659) {
+//            dj(
+//                $this->getId(),
+//                $taughtByAlliance->getSourceString('short'),
+//                $taughtByAlliance->getSourceString('medium'),
+//                $taughtByAlliance->getSourceString('long'),
+//                $taughtByAlliance->getRawNpcs(),
+//                $taughtByAlliance->getRawFormulas(),
+//            );
+//        }
+
         $html = "[" . l($this->getId()) . "] = {\n";
         $html .= "  name = " . l($this->getName()) . ",\n";
 
-        $html .= "  recipe_source_alliance_short = " . l($this->getSourceString('alliance', 'short')) . ",\n";
-        $html .= "  recipe_source_alliance_medium = " . l($this->getSourceString('alliance', 'medium')) . ",\n";
-        $html .= "  recipe_source_alliance_long = " . l($this->getSourceString('alliance', 'long')) . ",\n";
+        $html .= "  recipe_source_alliance_short = " . l($taughtByAlliance->getSourceString(TaughtBy::TAUGHT_BY_TYPE_SHORT)) . ",\n";
+        $html .= "  recipe_source_alliance_medium = " . l($taughtByAlliance->getSourceString(TaughtBy::TAUGHT_BY_TYPE_MEDIUM)) . ",\n";
+        $html .= "  recipe_source_alliance_long = " . l($taughtByAlliance->getSourceString(TaughtBy::TAUGHT_BY_TYPE_LONG)) . ",\n";
 
-        $html .= "  recipe_source_horde_short = " . l($this->getSourceString('horde', 'short')) . ",\n";
-        $html .= "  recipe_source_horde_medium = " . l($this->getSourceString('horde', 'medium')) . ",\n";
-        $html .= "  recipe_source_horde_long = " . l($this->getSourceString('horde', 'long')) . ",\n";
+        $html .= "  recipe_source_horde_short = " . l($taughtByHorde->getSourceString(TaughtBy::TAUGHT_BY_TYPE_SHORT)) . ",\n";
+        $html .= "  recipe_source_horde_medium = " . l($taughtByHorde->getSourceString(TaughtBy::TAUGHT_BY_TYPE_MEDIUM)) . ",\n";
+        $html .= "  recipe_source_horde_long = " . l($taughtByHorde->getSourceString(TaughtBy::TAUGHT_BY_TYPE_LONG)) . ",\n";
 
-        $html .= "  recipe_item_id_horde = " . l($this->getFormulaItemId('horde')) . ",\n";
-        $html .= "  recipe_item_id_alliance = " . l($this->getFormulaItemId('alliance')) . ",\n";
+        $html .= "  recipe_item_id_alliance = " . l($taughtByAlliance->getFormulaId()) . ",\n";
+        $html .= "  recipe_item_id_horde = " . l($taughtByHorde->getFormulaId()) . ",\n";
+        $html .= "  recipe_item_id_bop = " . l($taughtByHorde->isFormulaBOP()) . ",\n";
+
         $html .= "  training_cost = " . l($this->getTrainingCost()) . ",\n";
 
         $html .= "  cast_time = " . l($this->getCastTime()) . ",\n";
-        $html .= "  grey = " . l($this->getColour('grey')) . ",\n";
-        $html .= "  yellow = " . l($this->getColour('yellow')) . ",\n";
 
-        $html .= "  reagents = " . $this->transformReagentsToHtml($this->reagents()) . "\n";
+        $html .= "  red = " . l($this->getColour('red')) . ",\n";
+        $html .= "  yellow = " . l($this->getColour('yellow')) . ",\n";
+        $html .= "  green = " . l($this->getColour('green')) . ",\n";
+        $html .= "  grey = " . l($this->getColour('grey')) . ",\n";
+
+        $html .= "  reagents = " . $this->transformReagentsToLua($this->reagents()) . "\n";
+
+        $html .= "  tools = " . $this->transformToolsToLua($this->tools()) . "\n";
 
         $html .= "},\n";
 
@@ -79,7 +98,7 @@ class Recipe
         throw new \Exception("Cast time not found for spell {$this->getId()} - " . $url);
     }
 
-    private function transformReagentsToHtml(array $reagents): string
+    private function transformReagentsToLua(array $reagents): string
     {
         $html = "{\n";
         /** @var Reagent $reagent */
@@ -115,8 +134,34 @@ class Recipe
 
     private function reagents(): array
     {
-        // TODO
-        return [];
+        return array_map(fn($reagent) => new Reagent($reagent), $this->data['reagents'] ?? []);
+    }
+
+    private function getTaughtBy(string $side): TaughtBy
+    {
+        return new TaughtBy($this->getId(), $side);
+    }
+
+    private function tools(): array
+    {
+        $spell = new Spell($this->getId());
+
+        return $spell->getTools();
+    }
+
+    private function transformToolsToLua(array $tools)
+    {
+        $html = "{\n";
+        /** @var Tool $tool */
+        foreach ($tools as $tool) {
+            $html .= "    [" . l($tool->getItemId()) . "] = {\n";
+            $html .= "      name = " . l($tool->getName()) . ",\n";
+            $html .= "      quantity = " . l($tool->getQuantity()) . ",\n";
+            $html .= "    },\n";
+        }
+        $html .= "  },\n";
+
+        return $html;
     }
 
 }
