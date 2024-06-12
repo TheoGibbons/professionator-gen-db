@@ -60,7 +60,7 @@ class TaughtBy
             if ($type === self::TAUGHT_BY_TYPE_SHORT) {
 
                 if (count($this->npcs) === 1) {
-                    return implode(', ', array_map(fn($trainer) => $this->getSourceStringNpc($trainer, $type), $this->npcs));
+                    return implode("\n", array_map(fn($trainer) => $this->getSourceStringNpc($trainer, $type), $this->npcs));
                 } else if (count($this->npcs) > 1) {
                     return 'Trainers';
                 }
@@ -70,7 +70,7 @@ class TaughtBy
                 // 'Annora(U) Kitta Firewind(EF) - Gnomeregon';
 
                 if (count($this->npcs) <= 2) {
-                    return implode(', ', array_map(fn($trainer) => $this->getSourceStringNpc($trainer, $type), $this->npcs));
+                    return implode("\n", array_map(fn($trainer) => $this->getSourceStringNpc($trainer, $type), $this->npcs));
                 } else {
                     return 'Trainers';
                 }
@@ -80,7 +80,7 @@ class TaughtBy
                 // 'Annora(Uldaman) Kitta Firewind(Elwynn Forest)';
 
                 if (count($this->npcs) <= 4) {
-                    return implode(', ', array_map(fn($trainer) => $this->getSourceStringNpc($trainer, $type), $this->npcs));
+                    return implode("\n", array_map(fn($trainer) => $this->getSourceStringNpc($trainer, $type), $this->npcs));
                 } else {
                     return 'Trainers';
                 }
@@ -110,7 +110,7 @@ class TaughtBy
                 $formulaLocations = $this->getFormulaLocations($formulaItem, $type);
 
                 if (count($formulaLocations) < 3) {
-                    return implode(', ', $formulaLocations);
+                    return implode("\n", $formulaLocations);
                 } else {
 
                     // EG "https://www.wowhead.com/classic/item=20734/formula-enchant-cloak-stealth"
@@ -128,7 +128,7 @@ class TaughtBy
                 $formulaLocations = $this->getFormulaLocations($formulaItem, $type);
 
                 if (count($formulaLocations) < 4) {
-                    return implode(', ', $formulaLocations);
+                    return implode("\n", $formulaLocations);
                 } else {
 
                     // EG "https://www.wowhead.com/classic/item=20734/formula-enchant-cloak-stealth"

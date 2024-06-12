@@ -61,7 +61,7 @@ class Recipe
 
         $html .= "  cast_time = " . l($this->getCastTime()) . ",\n";
 
-        $html .= "  learnedat = " . l($this->getLearnedAt()) . ",\n";
+        $html .= "  learned_at = " . l($this->getLearnedAt()) . ",\n";
         $html .= "  red = " . l($this->getColour('red')) . ",\n";
         $html .= "  yellow = " . l($this->getColour('yellow')) . ",\n";
         $html .= "  green = " . l($this->getColour('green')) . ",\n";
