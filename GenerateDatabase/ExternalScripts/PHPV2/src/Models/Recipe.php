@@ -42,6 +42,7 @@ class Recipe
 //        }
 
         $html = "[" . l($this->getId()) . "] = {\n";
+        $html .= "  id = " . l($this->getId()) . ",\n";
         $html .= "  name = " . l($this->getName()) . ",\n";
 
         $html .= "  recipe_source_alliance_short = " . l($taughtByAlliance->getSourceString(TaughtBy::TAUGHT_BY_TYPE_SHORT)) . ",\n";
@@ -60,6 +61,7 @@ class Recipe
 
         $html .= "  cast_time = " . l($this->getCastTime()) . ",\n";
 
+        $html .= "  learnedat = " . l($this->getLearnedAt()) . ",\n";
         $html .= "  red = " . l($this->getColour('red')) . ",\n";
         $html .= "  yellow = " . l($this->getColour('yellow')) . ",\n";
         $html .= "  green = " . l($this->getColour('green')) . ",\n";
@@ -111,6 +113,11 @@ class Recipe
         $html .= "  },\n";
 
         return $html;
+    }
+
+    private function getLearnedAt()
+    {
+        return $this->data['learnedat'] ?? null;
     }
 
     private function getColour(string $string)

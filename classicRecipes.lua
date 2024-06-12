@@ -5,6 +5,7 @@ local ProfessionatorDB = ProfessionatorLoader:ImportModule("ProfessionatorDB")
 
 ProfessionatorDB.enchanting = {
 [7418] = {
+  id = 7418,
   name = 'Enchant Bracer - Minor Health',
   recipe_source_alliance_short = 'Unknown',
   recipe_source_alliance_medium = 'Unknown',
@@ -17,6 +18,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = nil,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 70,
   red = 0,
   yellow = 70,
   green = 90,
@@ -37,6 +39,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [7420] = {
+  id = 7420,
   name = 'Enchant Chest - Minor Health',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Trainers',
@@ -49,6 +52,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = nil,
   training_cost = 50,
   cast_time = 5,
+  learnedat = 15,
   red = 15,
   yellow = 70,
   green = 90,
@@ -69,6 +73,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [7421] = {
+  id = 7421,
   name = 'Runed Copper Rod',
   recipe_source_alliance_short = 'Unknown',
   recipe_source_alliance_medium = 'Unknown',
@@ -81,6 +86,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = nil,
   training_cost = nil,
   cast_time = 10,
+  learnedat = 1,
   red = 1,
   yellow = 5,
   green = 7,
@@ -105,6 +111,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [7426] = {
+  id = 7426,
   name = 'Enchant Chest - Minor Absorption',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Trainers',
@@ -117,6 +124,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = nil,
   training_cost = 100,
   cast_time = 5,
+  learnedat = 40,
   red = 40,
   yellow = 90,
   green = 110,
@@ -141,6 +149,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [7428] = {
+  id = 7428,
   name = 'Enchant Bracer - Minor Deflect',
   recipe_source_alliance_short = 'Unknown',
   recipe_source_alliance_medium = 'Unknown',
@@ -153,6 +162,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = nil,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 80,
   red = 0,
   yellow = 80,
   green = 100,
@@ -177,6 +187,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [7443] = {
+  id = 7443,
   name = 'Enchant Chest - Minor Mana',
   recipe_source_alliance_short = 'Enchant Chest - Minor Mana',
   recipe_source_alliance_medium = 'Formula multiple locations',
@@ -189,6 +200,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 20,
   red = 20,
   yellow = 80,
   green = 100,
@@ -209,6 +221,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [7454] = {
+  id = 7454,
   name = 'Enchant Cloak - Minor Resistance',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Trainers',
@@ -221,6 +234,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = nil,
   training_cost = 100,
   cast_time = 5,
+  learnedat = 45,
   red = 45,
   yellow = 95,
   green = 115,
@@ -245,6 +259,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [7457] = {
+  id = 7457,
   name = 'Enchant Bracer - Minor Stamina',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Trainers',
@@ -257,6 +272,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = nil,
   training_cost = 250,
   cast_time = 5,
+  learnedat = 50,
   red = 50,
   yellow = 100,
   green = 120,
@@ -277,6 +293,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [7745] = {
+  id = 7745,
   name = 'Enchant 2H Weapon - Minor Impact',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Trainers',
@@ -289,6 +306,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = nil,
   training_cost = 500,
   cast_time = 5,
+  learnedat = 100,
   red = 100,
   yellow = 130,
   green = 150,
@@ -313,6 +331,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [7748] = {
+  id = 7748,
   name = 'Enchant Chest - Lesser Health',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Trainers',
@@ -325,6 +344,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = nil,
   training_cost = 250,
   cast_time = 5,
+  learnedat = 60,
   red = 60,
   yellow = 105,
   green = 125,
@@ -349,6 +369,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [7766] = {
+  id = 7766,
   name = 'Enchant Bracer - Minor Spirit',
   recipe_source_alliance_short = 'Enchant Bracer - Minor Spirit',
   recipe_source_alliance_medium = 'Formula multiple locations',
@@ -361,6 +382,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 60,
   red = 60,
   yellow = 105,
   green = 125,
@@ -381,6 +403,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [7771] = {
+  id = 7771,
   name = 'Enchant Cloak - Minor Protection',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Trainers',
@@ -393,6 +416,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = false,
   training_cost = 200,
   cast_time = 5,
+  learnedat = 70,
   red = 70,
   yellow = 110,
   green = 130,
@@ -417,6 +441,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [7776] = {
+  id = 7776,
   name = 'Enchant Chest - Lesser Mana',
   recipe_source_alliance_short = 'Enchant Chest - Lesser Mana',
   recipe_source_alliance_medium = 'Sold by: Kithas <Enchanting Supplies> (O), Sold by: Lilly <Enchanting Supplies> (SF)',
@@ -429,6 +454,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 80,
   red = 80,
   yellow = 115,
   green = 135,
@@ -453,6 +479,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [7779] = {
+  id = 7779,
   name = 'Enchant Bracer - Minor Agility',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Trainers',
@@ -465,6 +492,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = nil,
   training_cost = 400,
   cast_time = 5,
+  learnedat = 80,
   red = 80,
   yellow = 115,
   green = 135,
@@ -489,6 +517,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [7782] = {
+  id = 7782,
   name = 'Enchant Bracer - Minor Strength',
   recipe_source_alliance_short = 'Enchant Bracer - Minor Strength',
   recipe_source_alliance_medium = 'Formula multiple locations',
@@ -501,6 +530,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 80,
   red = 80,
   yellow = 115,
   green = 135,
@@ -521,6 +551,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [7786] = {
+  id = 7786,
   name = 'Enchant Weapon - Minor Beastslayer',
   recipe_source_alliance_short = 'Enchant Weapon - Minor Beastslayer',
   recipe_source_alliance_medium = 'Formula multiple locations',
@@ -533,6 +564,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 90,
   red = 90,
   yellow = 120,
   green = 140,
@@ -557,6 +589,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [7788] = {
+  id = 7788,
   name = 'Enchant Weapon - Minor Striking',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Trainers',
@@ -569,6 +602,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = nil,
   training_cost = 500,
   cast_time = 5,
+  learnedat = 90,
   red = 90,
   yellow = 120,
   green = 140,
@@ -597,6 +631,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [7793] = {
+  id = 7793,
   name = 'Enchant 2H Weapon - Lesser Intellect',
   recipe_source_alliance_short = 'Enchant 2H Weapon - Lesser Intellect',
   recipe_source_alliance_medium = 'Sold in: ',
@@ -609,6 +644,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 100,
   red = 100,
   yellow = 130,
   green = 150,
@@ -629,6 +665,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [7795] = {
+  id = 7795,
   name = 'Runed Silver Rod',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Trainers',
@@ -641,6 +678,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = nil,
   training_cost = 1000,
   cast_time = 30,
+  learnedat = 100,
   red = 100,
   yellow = 130,
   green = 150,
@@ -669,6 +707,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [7857] = {
+  id = 7857,
   name = 'Enchant Chest - Health',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Trainers',
@@ -681,6 +720,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = nil,
   training_cost = 1000,
   cast_time = 5,
+  learnedat = 120,
   red = 120,
   yellow = 145,
   green = 165,
@@ -705,6 +745,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [7859] = {
+  id = 7859,
   name = 'Enchant Bracer - Lesser Spirit',
   recipe_source_alliance_short = 'Enchant Bracer - Lesser Spirit',
   recipe_source_alliance_medium = 'Formula multiple locations',
@@ -717,6 +758,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 120,
   red = 120,
   yellow = 145,
   green = 165,
@@ -737,6 +779,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [7861] = {
+  id = 7861,
   name = 'Enchant Cloak - Lesser Fire Resistance',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Trainers',
@@ -749,6 +792,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = nil,
   training_cost = 1250,
   cast_time = 5,
+  learnedat = 125,
   red = 125,
   yellow = 150,
   green = 170,
@@ -773,6 +817,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [7863] = {
+  id = 7863,
   name = 'Enchant Boots - Minor Stamina',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Trainers',
@@ -785,6 +830,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = false,
   training_cost = 1400,
   cast_time = 5,
+  learnedat = 125,
   red = 125,
   yellow = 150,
   green = 170,
@@ -805,6 +851,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [7867] = {
+  id = 7867,
   name = 'Enchant Boots - Minor Agility',
   recipe_source_alliance_short = 'Enchant Boots - Minor Agility',
   recipe_source_alliance_medium = 'Sold by: Nata Dawnstrider <Enchanting Supplies> (TB), Sold by: Zixil <Merchant Supreme> (HF)',
@@ -817,6 +864,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 125,
   red = 125,
   yellow = 150,
   green = 170,
@@ -841,6 +889,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [13378] = {
+  id = 13378,
   name = 'Enchant Shield - Minor Stamina',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Trainers',
@@ -853,6 +902,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = nil,
   training_cost = 600,
   cast_time = 5,
+  learnedat = 105,
   red = 105,
   yellow = 130,
   green = 150,
@@ -877,6 +927,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [13380] = {
+  id = 13380,
   name = 'Enchant 2H Weapon - Lesser Spirit',
   recipe_source_alliance_short = 'Enchant 2H Weapon - Lesser Spirit',
   recipe_source_alliance_medium = 'Formula multiple locations',
@@ -889,6 +940,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 110,
   red = 110,
   yellow = 135,
   green = 155,
@@ -913,6 +965,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [13419] = {
+  id = 13419,
   name = 'Enchant Cloak - Minor Agility',
   recipe_source_alliance_short = 'Enchant Cloak - Minor Agility',
   recipe_source_alliance_medium = 'Formula multiple locations',
@@ -925,6 +978,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 110,
   red = 110,
   yellow = 135,
   green = 155,
@@ -945,6 +999,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [13421] = {
+  id = 13421,
   name = 'Enchant Cloak - Lesser Protection',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Trainers',
@@ -957,6 +1012,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = nil,
   training_cost = 800,
   cast_time = 5,
+  learnedat = 115,
   red = 115,
   yellow = 140,
   green = 160,
@@ -981,6 +1037,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [13464] = {
+  id = 13464,
   name = 'Enchant Shield - Lesser Protection',
   recipe_source_alliance_short = 'Enchant Shield - Lesser Protection',
   recipe_source_alliance_medium = 'Formula multiple locations',
@@ -993,6 +1050,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 115,
   red = 115,
   yellow = 140,
   green = 160,
@@ -1021,6 +1079,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [13485] = {
+  id = 13485,
   name = 'Enchant Shield - Lesser Spirit',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Trainers',
@@ -1033,6 +1092,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = nil,
   training_cost = 1500,
   cast_time = 5,
+  learnedat = 130,
   red = 130,
   yellow = 155,
   green = 175,
@@ -1057,6 +1117,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [13501] = {
+  id = 13501,
   name = 'Enchant Bracer - Lesser Stamina',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Trainers',
@@ -1069,6 +1130,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = nil,
   training_cost = 1500,
   cast_time = 5,
+  learnedat = 130,
   red = 130,
   yellow = 155,
   green = 175,
@@ -1089,6 +1151,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [13503] = {
+  id = 13503,
   name = 'Enchant Weapon - Lesser Striking',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Trainers',
@@ -1101,6 +1164,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = nil,
   training_cost = 2000,
   cast_time = 5,
+  learnedat = 140,
   red = 140,
   yellow = 165,
   green = 185,
@@ -1125,6 +1189,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [13522] = {
+  id = 13522,
   name = 'Enchant Cloak - Lesser Shadow Resistance',
   recipe_source_alliance_short = 'Enchant Cloak - Lesser Shadow Resistance',
   recipe_source_alliance_medium = 'Formula multiple locations',
@@ -1137,6 +1202,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 135,
   red = 135,
   yellow = 160,
   green = 180,
@@ -1161,6 +1227,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [13529] = {
+  id = 13529,
   name = 'Enchant 2H Weapon - Lesser Impact',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Trainers',
@@ -1173,6 +1240,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = nil,
   training_cost = 2400,
   cast_time = 5,
+  learnedat = 145,
   red = 145,
   yellow = 170,
   green = 190,
@@ -1197,6 +1265,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [13536] = {
+  id = 13536,
   name = 'Enchant Bracer - Lesser Strength',
   recipe_source_alliance_short = 'Enchant Bracer - Lesser Strength',
   recipe_source_alliance_medium = 'Sold by: Dalria <Trade Goods> (A), Sold by: Kulwia <Trade Supplies> (SM)',
@@ -1209,6 +1278,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 140,
   red = 140,
   yellow = 165,
   green = 185,
@@ -1229,6 +1299,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [13538] = {
+  id = 13538,
   name = 'Enchant Chest - Lesser Absorption',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Trainers',
@@ -1241,6 +1312,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = nil,
   training_cost = 2500,
   cast_time = 5,
+  learnedat = 140,
   red = 140,
   yellow = 165,
   green = 185,
@@ -1269,6 +1341,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [13607] = {
+  id = 13607,
   name = 'Enchant Chest - Mana',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Trainers',
@@ -1281,6 +1354,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = nil,
   training_cost = 2400,
   cast_time = 5,
+  learnedat = 145,
   red = 145,
   yellow = 170,
   green = 190,
@@ -1305,6 +1379,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [13612] = {
+  id = 13612,
   name = 'Enchant Gloves - Mining',
   recipe_source_alliance_short = 'Enchant Gloves - Mining',
   recipe_source_alliance_medium = 'Dropped in: "Wetlands", "Arathi Highlands"',
@@ -1317,6 +1392,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 145,
   red = 145,
   yellow = 170,
   green = 190,
@@ -1341,6 +1417,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [13617] = {
+  id = 13617,
   name = 'Enchant Gloves - Herbalism',
   recipe_source_alliance_short = 'Enchant Gloves - Herbalism',
   recipe_source_alliance_medium = 'Dropped in: "Stonetalon Mountains", "Ashenvale"',
@@ -1353,6 +1430,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 145,
   red = 145,
   yellow = 170,
   green = 190,
@@ -1377,6 +1455,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [13620] = {
+  id = 13620,
   name = 'Enchant Gloves - Fishing',
   recipe_source_alliance_short = 'Enchant Gloves - Fishing',
   recipe_source_alliance_medium = 'Dropped in: "Hillsbrad Foothills"',
@@ -1389,6 +1468,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 145,
   red = 145,
   yellow = 170,
   green = 190,
@@ -1413,6 +1493,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [13622] = {
+  id = 13622,
   name = 'Enchant Bracer - Lesser Intellect',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Trainers',
@@ -1425,6 +1506,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = nil,
   training_cost = 2500,
   cast_time = 5,
+  learnedat = 150,
   red = 150,
   yellow = 175,
   green = 195,
@@ -1445,6 +1527,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [13626] = {
+  id = 13626,
   name = 'Enchant Chest - Minor Stats',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Trainers',
@@ -1457,6 +1540,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = nil,
   training_cost = 2500,
   cast_time = 5,
+  learnedat = 150,
   red = 150,
   yellow = 175,
   green = 195,
@@ -1485,6 +1569,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [13628] = {
+  id = 13628,
   name = 'Runed Golden Rod',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Trainers',
@@ -1497,6 +1582,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = nil,
   training_cost = 2500,
   cast_time = 30,
+  learnedat = 150,
   red = 150,
   yellow = 175,
   green = 195,
@@ -1525,6 +1611,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [13631] = {
+  id = 13631,
   name = 'Enchant Shield - Lesser Stamina',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Annora <Master Enchanter> (U), Kitta Firewind <Artisan Enchanter> (EF)',
@@ -1537,6 +1624,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = nil,
   training_cost = 2600,
   cast_time = 5,
+  learnedat = 155,
   red = 155,
   yellow = 175,
   green = 195,
@@ -1561,6 +1649,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [13635] = {
+  id = 13635,
   name = 'Enchant Cloak - Defense',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Annora <Master Enchanter> (U), Kitta Firewind <Artisan Enchanter> (EF)',
@@ -1573,6 +1662,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = nil,
   training_cost = 2600,
   cast_time = 5,
+  learnedat = 155,
   red = 155,
   yellow = 175,
   green = 195,
@@ -1597,6 +1687,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [13637] = {
+  id = 13637,
   name = 'Enchant Boots - Lesser Agility',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Annora <Master Enchanter> (U), Kitta Firewind <Artisan Enchanter> (EF)',
@@ -1609,6 +1700,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = nil,
   training_cost = 2800,
   cast_time = 5,
+  learnedat = 160,
   red = 160,
   yellow = 180,
   green = 200,
@@ -1633,6 +1725,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [13640] = {
+  id = 13640,
   name = 'Enchant Chest - Greater Health',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Annora <Master Enchanter> (U), Kitta Firewind <Artisan Enchanter> (EF)',
@@ -1645,6 +1738,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = nil,
   training_cost = 2700,
   cast_time = 5,
+  learnedat = 160,
   red = 160,
   yellow = 180,
   green = 200,
@@ -1665,6 +1759,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [13642] = {
+  id = 13642,
   name = 'Enchant Bracer - Spirit',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Annora <Master Enchanter> (U), Kitta Firewind <Artisan Enchanter> (EF)',
@@ -1677,6 +1772,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = nil,
   training_cost = 2800,
   cast_time = 5,
+  learnedat = 165,
   red = 165,
   yellow = 185,
   green = 205,
@@ -1697,6 +1793,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [13644] = {
+  id = 13644,
   name = 'Enchant Boots - Lesser Stamina',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Annora <Master Enchanter> (U), Kitta Firewind <Artisan Enchanter> (EF)',
@@ -1709,6 +1806,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = nil,
   training_cost = 2800,
   cast_time = 5,
+  learnedat = 170,
   red = 170,
   yellow = 190,
   green = 210,
@@ -1729,6 +1827,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [13646] = {
+  id = 13646,
   name = 'Enchant Bracer - Lesser Deflection',
   recipe_source_alliance_short = 'Enchant Bracer - Lesser Deflection',
   recipe_source_alliance_medium = 'Sold by: Micha Yance <Trade Goods> (HF), Sold by: Keena <Trade Goods> (AH)',
@@ -1741,6 +1840,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 170,
   red = 170,
   yellow = 190,
   green = 210,
@@ -1765,6 +1865,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [13648] = {
+  id = 13648,
   name = 'Enchant Bracer - Stamina',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Annora <Master Enchanter> (U), Kitta Firewind <Artisan Enchanter> (EF)',
@@ -1777,6 +1878,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = nil,
   training_cost = 2800,
   cast_time = 5,
+  learnedat = 170,
   red = 170,
   yellow = 190,
   green = 210,
@@ -1797,6 +1899,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [13653] = {
+  id = 13653,
   name = 'Enchant Weapon - Lesser Beastslayer',
   recipe_source_alliance_short = 'Enchant Weapon - Lesser Beastslayer',
   recipe_source_alliance_medium = 'Formula multiple locations',
@@ -1809,6 +1912,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 175,
   red = 175,
   yellow = 195,
   green = 215,
@@ -1837,6 +1941,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [13655] = {
+  id = 13655,
   name = 'Enchant Weapon - Lesser Elemental Slayer',
   recipe_source_alliance_short = 'Enchant Weapon - Lesser Elemental Slayer',
   recipe_source_alliance_medium = 'Formula multiple locations',
@@ -1849,6 +1954,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 175,
   red = 175,
   yellow = 195,
   green = 215,
@@ -1877,6 +1983,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [13657] = {
+  id = 13657,
   name = 'Enchant Cloak - Fire Resistance',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Annora <Master Enchanter> (U), Kitta Firewind <Artisan Enchanter> (EF)',
@@ -1889,6 +1996,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = nil,
   training_cost = 3000,
   cast_time = 5,
+  learnedat = 175,
   red = 175,
   yellow = 195,
   green = 215,
@@ -1913,6 +2021,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [13659] = {
+  id = 13659,
   name = 'Enchant Shield - Spirit',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Annora <Master Enchanter> (U), Kitta Firewind <Artisan Enchanter> (EF)',
@@ -1925,6 +2034,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = nil,
   training_cost = 3200,
   cast_time = 5,
+  learnedat = 180,
   red = 180,
   yellow = 200,
   green = 220,
@@ -1949,6 +2059,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [13661] = {
+  id = 13661,
   name = 'Enchant Bracer - Strength',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Annora <Master Enchanter> (U), Kitta Firewind <Artisan Enchanter> (EF)',
@@ -1961,6 +2072,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = nil,
   training_cost = 3600,
   cast_time = 5,
+  learnedat = 180,
   red = 180,
   yellow = 200,
   green = 220,
@@ -1981,6 +2093,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [13663] = {
+  id = 13663,
   name = 'Enchant Chest - Greater Mana',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Annora <Master Enchanter> (U), Kitta Firewind <Artisan Enchanter> (EF)',
@@ -1993,6 +2106,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = nil,
   training_cost = 3800,
   cast_time = 5,
+  learnedat = 185,
   red = 185,
   yellow = 205,
   green = 225,
@@ -2013,6 +2127,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [13687] = {
+  id = 13687,
   name = 'Enchant Boots - Lesser Spirit',
   recipe_source_alliance_short = 'Enchant Boots - Lesser Spirit',
   recipe_source_alliance_medium = 'Formula multiple locations',
@@ -2025,6 +2140,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 190,
   red = 190,
   yellow = 210,
   green = 230,
@@ -2049,6 +2165,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [13689] = {
+  id = 13689,
   name = 'Enchant Shield - Lesser Block',
   recipe_source_alliance_short = 'Enchant Shield - Lesser Block',
   recipe_source_alliance_medium = 'Formula multiple locations',
@@ -2061,6 +2178,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 195,
   red = 195,
   yellow = 215,
   green = 235,
@@ -2089,6 +2207,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [13693] = {
+  id = 13693,
   name = 'Enchant Weapon - Striking',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Annora <Master Enchanter> (U), Kitta Firewind <Artisan Enchanter> (EF)',
@@ -2101,6 +2220,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = nil,
   training_cost = 4000,
   cast_time = 5,
+  learnedat = 195,
   red = 195,
   yellow = 215,
   green = 235,
@@ -2125,6 +2245,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [13695] = {
+  id = 13695,
   name = 'Enchant 2H Weapon - Impact',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Annora <Master Enchanter> (U), Kitta Firewind <Artisan Enchanter> (EF)',
@@ -2137,6 +2258,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = nil,
   training_cost = 4000,
   cast_time = 5,
+  learnedat = 200,
   red = 200,
   yellow = 220,
   green = 240,
@@ -2161,6 +2283,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [13698] = {
+  id = 13698,
   name = 'Enchant Gloves - Skinning',
   recipe_source_alliance_short = 'Enchant Gloves - Skinning',
   recipe_source_alliance_medium = 'Dropped in: "Arathi Highlands"',
@@ -2173,6 +2296,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 200,
   red = 200,
   yellow = 220,
   green = 240,
@@ -2197,6 +2321,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [13700] = {
+  id = 13700,
   name = 'Enchant Chest - Lesser Stats',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Annora <Master Enchanter> (U), Kitta Firewind <Artisan Enchanter> (EF)',
@@ -2209,6 +2334,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = nil,
   training_cost = 4000,
   cast_time = 5,
+  learnedat = 200,
   red = 200,
   yellow = 220,
   green = 240,
@@ -2237,6 +2363,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [13702] = {
+  id = 13702,
   name = 'Runed Truesilver Rod',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Annora <Master Enchanter> (U), Kitta Firewind <Artisan Enchanter> (EF)',
@@ -2249,6 +2376,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = nil,
   training_cost = 4000,
   cast_time = 30,
+  learnedat = 200,
   red = 200,
   yellow = 220,
   green = 240,
@@ -2277,6 +2405,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [13746] = {
+  id = 13746,
   name = 'Enchant Cloak - Greater Defense',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Annora <Master Enchanter> (U), Kitta Firewind <Artisan Enchanter> (EF)',
@@ -2289,6 +2418,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = nil,
   training_cost = 4200,
   cast_time = 5,
+  learnedat = 205,
   red = 205,
   yellow = 225,
   green = 245,
@@ -2309,6 +2439,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [13794] = {
+  id = 13794,
   name = 'Enchant Cloak - Resistance',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Annora <Master Enchanter> (U), Kitta Firewind <Artisan Enchanter> (EF)',
@@ -2321,6 +2452,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = nil,
   training_cost = 4200,
   cast_time = 5,
+  learnedat = 205,
   red = 205,
   yellow = 225,
   green = 245,
@@ -2341,6 +2473,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [13815] = {
+  id = 13815,
   name = 'Enchant Gloves - Agility',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Annora <Master Enchanter> (U), Kitta Firewind <Artisan Enchanter> (EF)',
@@ -2353,6 +2486,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = nil,
   training_cost = 4400,
   cast_time = 5,
+  learnedat = 210,
   red = 210,
   yellow = 230,
   green = 250,
@@ -2377,6 +2511,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [13817] = {
+  id = 13817,
   name = 'Enchant Shield - Stamina',
   recipe_source_alliance_short = 'Enchant Shield - Stamina',
   recipe_source_alliance_medium = 'Formula multiple locations',
@@ -2389,6 +2524,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 210,
   red = 210,
   yellow = 230,
   green = 250,
@@ -2409,6 +2545,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [13822] = {
+  id = 13822,
   name = 'Enchant Bracer - Intellect',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Annora <Master Enchanter> (U), Kitta Firewind <Artisan Enchanter> (EF)',
@@ -2421,6 +2558,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = nil,
   training_cost = 4400,
   cast_time = 5,
+  learnedat = 210,
   red = 210,
   yellow = 230,
   green = 250,
@@ -2441,6 +2579,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [13836] = {
+  id = 13836,
   name = 'Enchant Boots - Stamina',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Annora <Master Enchanter> (U), Kitta Firewind <Artisan Enchanter> (EF)',
@@ -2453,6 +2592,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = nil,
   training_cost = 4600,
   cast_time = 5,
+  learnedat = 215,
   red = 215,
   yellow = 235,
   green = 255,
@@ -2473,6 +2613,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [13841] = {
+  id = 13841,
   name = 'Enchant Gloves - Advanced Mining',
   recipe_source_alliance_short = 'Enchant Gloves - Advanced Mining',
   recipe_source_alliance_medium = 'Dropped by: Venture Co. Strip Miner (SV)',
@@ -2485,6 +2626,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 215,
   red = 215,
   yellow = 235,
   green = 255,
@@ -2509,6 +2651,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [13846] = {
+  id = 13846,
   name = 'Enchant Bracer - Greater Spirit',
   recipe_source_alliance_short = 'Enchant Bracer - Greater Spirit',
   recipe_source_alliance_medium = 'Formula multiple locations',
@@ -2521,6 +2664,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 220,
   red = 220,
   yellow = 240,
   green = 260,
@@ -2545,6 +2689,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [13858] = {
+  id = 13858,
   name = 'Enchant Chest - Superior Health',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Annora <Master Enchanter> (U), Kitta Firewind <Artisan Enchanter> (EF)',
@@ -2557,6 +2702,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = nil,
   training_cost = 4800,
   cast_time = 5,
+  learnedat = 220,
   red = 220,
   yellow = 240,
   green = 260,
@@ -2577,6 +2723,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [13868] = {
+  id = 13868,
   name = 'Enchant Gloves - Advanced Herbalism',
   recipe_source_alliance_short = 'Enchant Gloves - Advanced Herbalism',
   recipe_source_alliance_medium = 'Dropped in: "Swamp of Sorrows", "Dustwallow Marsh"',
@@ -2589,6 +2736,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 225,
   red = 225,
   yellow = 245,
   green = 265,
@@ -2613,6 +2761,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [13882] = {
+  id = 13882,
   name = 'Enchant Cloak - Lesser Agility',
   recipe_source_alliance_short = 'Enchant Cloak - Lesser Agility',
   recipe_source_alliance_medium = 'Dropped in: "Alterac Mountains", "Tanaris"',
@@ -2625,6 +2774,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 225,
   red = 225,
   yellow = 245,
   green = 265,
@@ -2645,6 +2795,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [13887] = {
+  id = 13887,
   name = 'Enchant Gloves - Strength',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Annora <Master Enchanter> (U), Kitta Firewind <Artisan Enchanter> (EF)',
@@ -2657,6 +2808,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = nil,
   training_cost = 5000,
   cast_time = 5,
+  learnedat = 225,
   red = 225,
   yellow = 245,
   green = 265,
@@ -2681,6 +2833,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [13890] = {
+  id = 13890,
   name = 'Enchant Boots - Minor Speed',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Annora <Master Enchanter> (U), Kitta Firewind <Artisan Enchanter> (EF)',
@@ -2693,6 +2846,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = nil,
   training_cost = 5000,
   cast_time = 5,
+  learnedat = 225,
   red = 225,
   yellow = 245,
   green = 265,
@@ -2721,6 +2875,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [13898] = {
+  id = 13898,
   name = 'Enchant Weapon - Fiery Weapon',
   recipe_source_alliance_short = 'Enchant Weapon - Fiery Weapon',
   recipe_source_alliance_medium = 'Dropped by: Pyromancer Loregrain (BD)',
@@ -2733,6 +2888,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 265,
   red = 265,
   yellow = 285,
   green = 305,
@@ -2757,6 +2913,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [13905] = {
+  id = 13905,
   name = 'Enchant Shield - Greater Spirit',
   recipe_source_alliance_short = 'Annora (U)',
   recipe_source_alliance_medium = 'Annora <Master Enchanter> (U)',
@@ -2769,6 +2926,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = nil,
   training_cost = 5400,
   cast_time = 5,
+  learnedat = 230,
   red = 230,
   yellow = 250,
   green = 270,
@@ -2793,6 +2951,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [13915] = {
+  id = 13915,
   name = 'Enchant Weapon - Demonslaying',
   recipe_source_alliance_short = 'Enchant Weapon - Demonslaying',
   recipe_source_alliance_medium = 'Formula multiple locations',
@@ -2805,6 +2964,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 230,
   red = 230,
   yellow = 250,
   green = 270,
@@ -2833,6 +2993,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [13917] = {
+  id = 13917,
   name = 'Enchant Chest - Superior Mana',
   recipe_source_alliance_short = 'Annora (U)',
   recipe_source_alliance_medium = 'Annora <Master Enchanter> (U)',
@@ -2845,6 +3006,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = nil,
   training_cost = 5400,
   cast_time = 5,
+  learnedat = 230,
   red = 230,
   yellow = 250,
   green = 270,
@@ -2869,6 +3031,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [13931] = {
+  id = 13931,
   name = 'Enchant Bracer - Deflection',
   recipe_source_alliance_short = 'Enchant Bracer - Deflection',
   recipe_source_alliance_medium = 'Sold by: Banalash <Trade Goods> (SOS), Sold by: Mythrin\'dir <General Trade Supplier> (D)',
@@ -2881,6 +3044,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 235,
   red = 235,
   yellow = 255,
   green = 275,
@@ -2905,6 +3069,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [13933] = {
+  id = 13933,
   name = 'Enchant Shield - Frost Resistance',
   recipe_source_alliance_short = 'Enchant Shield - Frost Resistance',
   recipe_source_alliance_medium = 'Formula multiple locations',
@@ -2917,6 +3082,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 235,
   red = 235,
   yellow = 255,
   green = 275,
@@ -2941,6 +3107,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [13935] = {
+  id = 13935,
   name = 'Enchant Boots - Agility',
   recipe_source_alliance_short = 'Annora (U)',
   recipe_source_alliance_medium = 'Annora <Master Enchanter> (U)',
@@ -2953,6 +3120,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = nil,
   training_cost = 5800,
   cast_time = 5,
+  learnedat = 235,
   red = 235,
   yellow = 255,
   green = 275,
@@ -2973,6 +3141,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [13937] = {
+  id = 13937,
   name = 'Enchant 2H Weapon - Greater Impact',
   recipe_source_alliance_short = 'Annora (U)',
   recipe_source_alliance_medium = 'Annora <Master Enchanter> (U)',
@@ -2985,6 +3154,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = nil,
   training_cost = 6200,
   cast_time = 5,
+  learnedat = 240,
   red = 240,
   yellow = 260,
   green = 280,
@@ -3009,6 +3179,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [13939] = {
+  id = 13939,
   name = 'Enchant Bracer - Greater Strength',
   recipe_source_alliance_short = 'Annora (U)',
   recipe_source_alliance_medium = 'Annora <Master Enchanter> (U)',
@@ -3021,6 +3192,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = nil,
   training_cost = 6200,
   cast_time = 5,
+  learnedat = 240,
   red = 240,
   yellow = 260,
   green = 280,
@@ -3045,6 +3217,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [13941] = {
+  id = 13941,
   name = 'Enchant Chest - Stats',
   recipe_source_alliance_short = 'Annora (U)',
   recipe_source_alliance_medium = 'Annora <Master Enchanter> (U)',
@@ -3057,6 +3230,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = nil,
   training_cost = 6200,
   cast_time = 5,
+  learnedat = 245,
   red = 245,
   yellow = 265,
   green = 285,
@@ -3085,6 +3259,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [13943] = {
+  id = 13943,
   name = 'Enchant Weapon - Greater Striking',
   recipe_source_alliance_short = 'Annora (U)',
   recipe_source_alliance_medium = 'Annora <Master Enchanter> (U)',
@@ -3097,6 +3272,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = nil,
   training_cost = 6200,
   cast_time = 5,
+  learnedat = 245,
   red = 245,
   yellow = 265,
   green = 285,
@@ -3121,6 +3297,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [13945] = {
+  id = 13945,
   name = 'Enchant Bracer - Greater Stamina',
   recipe_source_alliance_short = 'Enchant Bracer - Greater Stamina',
   recipe_source_alliance_medium = 'Formula multiple locations',
@@ -3133,6 +3310,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 245,
   red = 245,
   yellow = 265,
   green = 285,
@@ -3153,6 +3331,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [13947] = {
+  id = 13947,
   name = 'Enchant Gloves - Riding Skill',
   recipe_source_alliance_short = 'Enchant Gloves - Riding Skill',
   recipe_source_alliance_medium = 'Formula multiple locations',
@@ -3165,6 +3344,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 250,
   red = 250,
   yellow = 270,
   green = 290,
@@ -3189,6 +3369,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [13948] = {
+  id = 13948,
   name = 'Enchant Gloves - Minor Haste',
   recipe_source_alliance_short = 'Annora (U)',
   recipe_source_alliance_medium = 'Annora <Master Enchanter> (U)',
@@ -3201,6 +3382,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = nil,
   training_cost = 6500,
   cast_time = 5,
+  learnedat = 250,
   red = 250,
   yellow = 270,
   green = 290,
@@ -3225,6 +3407,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [14293] = {
+  id = 14293,
   name = 'Lesser Magic Wand',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Trainers',
@@ -3237,6 +3420,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = nil,
   training_cost = 50,
   cast_time = 10,
+  learnedat = 10,
   red = 10,
   yellow = 75,
   green = 95,
@@ -3261,6 +3445,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [14807] = {
+  id = 14807,
   name = 'Greater Magic Wand',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Trainers',
@@ -3273,6 +3458,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = nil,
   training_cost = 200,
   cast_time = 10,
+  learnedat = 70,
   red = 70,
   yellow = 110,
   green = 130,
@@ -3297,6 +3483,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [14809] = {
+  id = 14809,
   name = 'Lesser Mystic Wand',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Annora <Master Enchanter> (U), Kitta Firewind <Artisan Enchanter> (EF)',
@@ -3309,6 +3496,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = nil,
   training_cost = 2600,
   cast_time = 10,
+  learnedat = 155,
   red = 155,
   yellow = 175,
   green = 195,
@@ -3337,6 +3525,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [14810] = {
+  id = 14810,
   name = 'Greater Mystic Wand',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Annora <Master Enchanter> (U), Kitta Firewind <Artisan Enchanter> (EF)',
@@ -3349,6 +3538,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = nil,
   training_cost = 3000,
   cast_time = 10,
+  learnedat = 175,
   red = 175,
   yellow = 195,
   green = 215,
@@ -3377,6 +3567,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [15596] = {
+  id = 15596,
   name = 'Smoking Heart of the Mountain',
   recipe_source_alliance_short = 'Smoking Heart of the Mountain',
   recipe_source_alliance_medium = 'Dropped by: Lord Roccor (BD)',
@@ -3389,6 +3580,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = true,
   training_cost = nil,
   cast_time = 30,
+  learnedat = 265,
   red = 265,
   yellow = 285,
   green = 305,
@@ -3413,6 +3605,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [17180] = {
+  id = 17180,
   name = 'Enchanted Thorium',
   recipe_source_alliance_short = 'Annora (U)',
   recipe_source_alliance_medium = 'Annora <Master Enchanter> (U)',
@@ -3425,6 +3618,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = nil,
   training_cost = 10000,
   cast_time = 12.5,
+  learnedat = 250,
   red = 250,
   yellow = 250,
   green = 255,
@@ -3449,6 +3643,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [17181] = {
+  id = 17181,
   name = 'Enchanted Leather',
   recipe_source_alliance_short = 'Annora (U)',
   recipe_source_alliance_medium = 'Annora <Master Enchanter> (U)',
@@ -3461,6 +3656,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = nil,
   training_cost = 10000,
   cast_time = 12.5,
+  learnedat = 250,
   red = 250,
   yellow = 250,
   green = 255,
@@ -3485,6 +3681,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [20008] = {
+  id = 20008,
   name = 'Enchant Bracer - Greater Intellect',
   recipe_source_alliance_short = 'Enchant Bracer - Greater Intellect',
   recipe_source_alliance_medium = 'Dropped by: Vilebranch Shadowcaster (TH)',
@@ -3497,6 +3694,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 255,
   red = 255,
   yellow = 275,
   green = 295,
@@ -3517,6 +3715,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [20009] = {
+  id = 20009,
   name = 'Enchant Bracer - Superior Spirit',
   recipe_source_alliance_short = 'Enchant Bracer - Superior Spirit',
   recipe_source_alliance_medium = 'Formula multiple locations',
@@ -3529,6 +3728,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 270,
   red = 270,
   yellow = 290,
   green = 310,
@@ -3553,6 +3753,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [20010] = {
+  id = 20010,
   name = 'Enchant Bracer - Superior Strength',
   recipe_source_alliance_short = 'Enchant Bracer - Superior Strength',
   recipe_source_alliance_medium = 'Dropped by: Deadwind Warlock (DP)',
@@ -3565,6 +3766,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 295,
   red = 295,
   yellow = 315,
   green = 335,
@@ -3589,6 +3791,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [20011] = {
+  id = 20011,
   name = 'Enchant Bracer - Superior Stamina',
   recipe_source_alliance_short = 'Enchant Bracer - Superior Stamina',
   recipe_source_alliance_medium = 'Formula multiple locations',
@@ -3601,6 +3804,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 300,
   red = 300,
   yellow = 320,
   green = 340,
@@ -3621,6 +3825,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [20012] = {
+  id = 20012,
   name = 'Enchant Gloves - Greater Agility',
   recipe_source_alliance_short = 'Enchant Gloves - Greater Agility',
   recipe_source_alliance_medium = 'Dropped by: Legashi Rogue (A)',
@@ -3633,6 +3838,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 270,
   red = 270,
   yellow = 290,
   green = 310,
@@ -3657,6 +3863,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [20013] = {
+  id = 20013,
   name = 'Enchant Gloves - Greater Strength',
   recipe_source_alliance_short = 'Enchant Gloves - Greater Strength',
   recipe_source_alliance_medium = 'Dropped by: Spirestone Mystic (BS)',
@@ -3669,6 +3876,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 295,
   red = 295,
   yellow = 315,
   green = 335,
@@ -3693,6 +3901,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [20014] = {
+  id = 20014,
   name = 'Enchant Cloak - Greater Resistance',
   recipe_source_alliance_short = 'Enchant Cloak - Greater Resistance',
   recipe_source_alliance_medium = 'Dropped by: Atal\'ai Witch Doctor (TTOA), Dropped by: Atal\'ai Witch Doctor (TTOA)',
@@ -3705,6 +3914,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 265,
   red = 265,
   yellow = 285,
   green = 305,
@@ -3745,6 +3955,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [20015] = {
+  id = 20015,
   name = 'Enchant Cloak - Superior Defense',
   recipe_source_alliance_short = 'Enchant Cloak - Superior Defense',
   recipe_source_alliance_medium = 'Sold by: Lorelae Wintersong <Trade Supplies> (M)',
@@ -3757,6 +3968,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 285,
   red = 285,
   yellow = 305,
   green = 325,
@@ -3777,6 +3989,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [20016] = {
+  id = 20016,
   name = 'Enchant Shield - Superior Spirit',
   recipe_source_alliance_short = 'Enchant Shield - Superior Spirit',
   recipe_source_alliance_medium = 'Dropped by: Scarlet Warder (EP)',
@@ -3789,6 +4002,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 280,
   red = 280,
   yellow = 300,
   green = 320,
@@ -3813,6 +4027,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [20017] = {
+  id = 20017,
   name = 'Enchant Shield - Greater Stamina',
   recipe_source_alliance_short = 'Enchant Shield - Greater Stamina',
   recipe_source_alliance_medium = 'Sold by: Mythrin\'dir <General Trade Supplier> (D), Sold by: Daniel Bartlett <General Trade Supplier> (U)',
@@ -3825,6 +4040,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = true,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 265,
   red = 265,
   yellow = 285,
   green = 305,
@@ -3845,6 +4061,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [20020] = {
+  id = 20020,
   name = 'Enchant Boots - Greater Stamina',
   recipe_source_alliance_short = 'Enchant Boots - Greater Stamina',
   recipe_source_alliance_medium = 'Formula multiple locations',
@@ -3857,6 +4074,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 260,
   red = 260,
   yellow = 280,
   green = 300,
@@ -3877,6 +4095,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [20023] = {
+  id = 20023,
   name = 'Enchant Boots - Greater Agility',
   recipe_source_alliance_short = 'Enchant Boots - Greater Agility',
   recipe_source_alliance_medium = 'Formula multiple locations',
@@ -3889,6 +4108,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 295,
   red = 295,
   yellow = 315,
   green = 335,
@@ -3909,6 +4129,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [20024] = {
+  id = 20024,
   name = 'Enchant Boots - Spirit',
   recipe_source_alliance_short = 'Enchant Boots - Spirit',
   recipe_source_alliance_medium = 'Formula multiple locations',
@@ -3921,6 +4142,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 275,
   red = 275,
   yellow = 295,
   green = 315,
@@ -3945,6 +4167,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [20025] = {
+  id = 20025,
   name = 'Enchant Chest - Greater Stats',
   recipe_source_alliance_short = 'Enchant Chest - Greater Stats',
   recipe_source_alliance_medium = 'Formula multiple locations',
@@ -3957,6 +4180,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 300,
   red = 300,
   yellow = 320,
   green = 340,
@@ -3985,6 +4209,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [20026] = {
+  id = 20026,
   name = 'Enchant Chest - Major Health',
   recipe_source_alliance_short = 'Enchant Chest - Major Health',
   recipe_source_alliance_medium = 'Sold by: Qia <Trade Goods Supplies> (W)',
@@ -3997,6 +4222,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 275,
   red = 275,
   yellow = 295,
   green = 315,
@@ -4021,6 +4247,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [20028] = {
+  id = 20028,
   name = 'Enchant Chest - Major Mana',
   recipe_source_alliance_short = 'Enchant Chest - Major Mana',
   recipe_source_alliance_medium = 'Dropped by: Scarlet Enchanter (EP)',
@@ -4033,6 +4260,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 290,
   red = 290,
   yellow = 310,
   green = 330,
@@ -4057,6 +4285,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [20029] = {
+  id = 20029,
   name = 'Enchant Weapon - Icy Chill',
   recipe_source_alliance_short = 'Enchant Weapon - Icy Chill',
   recipe_source_alliance_medium = 'Dropped by: Anguished Highborne (W)',
@@ -4069,6 +4298,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 285,
   red = 285,
   yellow = 305,
   green = 325,
@@ -4101,6 +4331,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [20030] = {
+  id = 20030,
   name = 'Enchant 2H Weapon - Superior Impact',
   recipe_source_alliance_short = 'Enchant 2H Weapon - Superior Impact',
   recipe_source_alliance_medium = 'Dropped by: Blackhand Elite <Blackhand Legion> (BS)',
@@ -4113,6 +4344,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 295,
   red = 295,
   yellow = 315,
   green = 335,
@@ -4137,6 +4369,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [20031] = {
+  id = 20031,
   name = 'Enchant Weapon - Superior Striking',
   recipe_source_alliance_short = 'Enchant Weapon - Superior Striking',
   recipe_source_alliance_medium = 'Dropped by: Spirestone Warlord (BS)',
@@ -4149,6 +4382,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 300,
   red = 300,
   yellow = 320,
   green = 340,
@@ -4173,6 +4407,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [20032] = {
+  id = 20032,
   name = 'Enchant Weapon - Lifestealing',
   recipe_source_alliance_short = 'Enchant Weapon - Lifestealing',
   recipe_source_alliance_medium = 'Dropped by: Spectral Researcher (S)',
@@ -4185,6 +4420,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 300,
   red = 300,
   yellow = 320,
   green = 340,
@@ -4213,6 +4449,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [20033] = {
+  id = 20033,
   name = 'Enchant Weapon - Unholy Weapon',
   recipe_source_alliance_short = 'Enchant Weapon - Unholy',
   recipe_source_alliance_medium = 'Dropped by: Thuzadin Shadowcaster (S)',
@@ -4225,6 +4462,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 295,
   red = 295,
   yellow = 315,
   green = 335,
@@ -4249,6 +4487,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [20034] = {
+  id = 20034,
   name = 'Enchant Weapon - Crusader',
   recipe_source_alliance_short = 'Enchant Weapon - Crusader',
   recipe_source_alliance_medium = 'Dropped by: Scarlet Spellbinder (WP)',
@@ -4261,6 +4500,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 300,
   red = 300,
   yellow = 320,
   green = 340,
@@ -4285,6 +4525,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [20035] = {
+  id = 20035,
   name = 'Enchant 2H Weapon - Major Spirit',
   recipe_source_alliance_short = 'Enchant 2H Weapon - Major Spirit',
   recipe_source_alliance_medium = 'Dropped by: Scholomance Adept (S)',
@@ -4297,6 +4538,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 300,
   red = 300,
   yellow = 320,
   green = 340,
@@ -4321,6 +4563,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [20036] = {
+  id = 20036,
   name = 'Enchant 2H Weapon - Major Intellect',
   recipe_source_alliance_short = 'Enchant 2H Weapon - Major Intellect',
   recipe_source_alliance_medium = 'Dropped by: Crimson Sorcerer (S)',
@@ -4333,6 +4576,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 300,
   red = 300,
   yellow = 320,
   green = 340,
@@ -4357,6 +4601,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [20051] = {
+  id = 20051,
   name = 'Runed Arcanite Rod',
   recipe_source_alliance_short = 'Runed Arcanite Rod',
   recipe_source_alliance_medium = 'Sold by: Lorelae Wintersong <Trade Supplies> (M)',
@@ -4369,6 +4614,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = true,
   training_cost = nil,
   cast_time = 30,
+  learnedat = 290,
   red = 290,
   yellow = 310,
   green = 330,
@@ -4405,6 +4651,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [21931] = {
+  id = 21931,
   name = 'Enchant Weapon - Winter\'s Might',
   recipe_source_alliance_short = 'Enchant Weapon - Winter\'s Might',
   recipe_source_alliance_medium = 'Found in: ',
@@ -4417,6 +4664,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 190,
   red = 190,
   yellow = 210,
   green = 230,
@@ -4449,6 +4697,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [22749] = {
+  id = 22749,
   name = 'Enchant Weapon - Spell Power',
   recipe_source_alliance_short = 'Enchant Weapon - Spell Power',
   recipe_source_alliance_medium = 'Dropped in: "Molten Core"',
@@ -4461,6 +4710,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = true,
   training_cost = nil,
   cast_time = 3.5,
+  learnedat = 300,
   red = 300,
   yellow = 320,
   green = 340,
@@ -4501,6 +4751,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [22750] = {
+  id = 22750,
   name = 'Enchant Weapon - Healing Power',
   recipe_source_alliance_short = 'Enchant Weapon - Healing Power',
   recipe_source_alliance_medium = 'Dropped in: "Molten Core"',
@@ -4513,6 +4764,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = true,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 300,
   red = 300,
   yellow = 320,
   green = 340,
@@ -4549,6 +4801,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [23799] = {
+  id = 23799,
   name = 'Enchant Weapon - Strength',
   recipe_source_alliance_short = 'Enchant Weapon - Strength',
   recipe_source_alliance_medium = 'Sold by: Lokhtos Darkbargainer <The Thorium Brotherhood> (BD)',
@@ -4561,6 +4814,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = true,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 290,
   red = 290,
   yellow = 310,
   green = 330,
@@ -4593,6 +4847,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [23800] = {
+  id = 23800,
   name = 'Enchant Weapon - Agility',
   recipe_source_alliance_short = 'Enchant Weapon - Agility',
   recipe_source_alliance_medium = 'Sold by: Meilosh (F)',
@@ -4605,6 +4860,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = true,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 290,
   red = 290,
   yellow = 310,
   green = 330,
@@ -4637,6 +4893,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [23801] = {
+  id = 23801,
   name = 'Enchant Bracer - Mana Regeneration',
   recipe_source_alliance_short = 'Enchant Bracer - Mana Regeneration',
   recipe_source_alliance_medium = 'Sold in: ',
@@ -4649,6 +4906,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = true,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 290,
   red = 290,
   yellow = 310,
   green = 330,
@@ -4677,6 +4935,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [23802] = {
+  id = 23802,
   name = 'Enchant Bracer - Healing Power',
   recipe_source_alliance_short = 'Enchant Bracer - Healing',
   recipe_source_alliance_medium = 'Sold in: ',
@@ -4689,6 +4948,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = true,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 300,
   red = 300,
   yellow = 320,
   green = 340,
@@ -4721,6 +4981,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [23803] = {
+  id = 23803,
   name = 'Enchant Weapon - Mighty Spirit',
   recipe_source_alliance_short = 'Enchant Weapon - Mighty Spirit',
   recipe_source_alliance_medium = 'Sold by: Lokhtos Darkbargainer <The Thorium Brotherhood> (BD)',
@@ -4733,6 +4994,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = true,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 300,
   red = 300,
   yellow = 320,
   green = 340,
@@ -4761,6 +5023,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [23804] = {
+  id = 23804,
   name = 'Enchant Weapon - Mighty Intellect',
   recipe_source_alliance_short = 'Enchant Weapon - Mighty Intellect',
   recipe_source_alliance_medium = 'Sold by: Lokhtos Darkbargainer <The Thorium Brotherhood> (BD)',
@@ -4773,6 +5036,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = true,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 300,
   red = 300,
   yellow = 320,
   green = 340,
@@ -4801,6 +5065,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [25072] = {
+  id = 25072,
   name = 'Enchant Gloves - Threat',
   recipe_source_alliance_short = 'Enchant Gloves - Threat',
   recipe_source_alliance_medium = 'Dropped by: Emperor Vek\'nilash (A)',
@@ -4813,6 +5078,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = true,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 300,
   red = 300,
   yellow = 320,
   green = 340,
@@ -4841,6 +5107,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [25073] = {
+  id = 25073,
   name = 'Enchant Gloves - Shadow Power',
   recipe_source_alliance_short = 'Enchant Gloves - Shadow Power',
   recipe_source_alliance_medium = 'Dropped in: "Ruins of Ahn\'Qiraj", "Ahn\'Qiraj"',
@@ -4853,6 +5120,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = true,
   training_cost = nil,
   cast_time = 3.5,
+  learnedat = 300,
   red = 300,
   yellow = 320,
   green = 340,
@@ -4881,6 +5149,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [25074] = {
+  id = 25074,
   name = 'Enchant Gloves - Frost Power',
   recipe_source_alliance_short = 'Enchant Gloves - Frost Power',
   recipe_source_alliance_medium = 'Dropped in: "Ahn\'Qiraj", "Ruins of Ahn\'Qiraj"',
@@ -4893,6 +5162,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = true,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 300,
   red = 300,
   yellow = 320,
   green = 340,
@@ -4921,6 +5191,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [25078] = {
+  id = 25078,
   name = 'Enchant Gloves - Fire Power',
   recipe_source_alliance_short = 'Enchant Gloves - Fire Power',
   recipe_source_alliance_medium = 'Dropped in: "Ahn\'Qiraj", "Ruins of Ahn\'Qiraj"',
@@ -4933,6 +5204,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = true,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 300,
   red = 300,
   yellow = 320,
   green = 340,
@@ -4961,6 +5233,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [25079] = {
+  id = 25079,
   name = 'Enchant Gloves - Healing Power',
   recipe_source_alliance_short = 'Enchant Gloves - Healing Power',
   recipe_source_alliance_medium = 'Dropped in: "Ahn\'Qiraj", "Ruins of Ahn\'Qiraj"',
@@ -4973,6 +5246,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = true,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 300,
   red = 300,
   yellow = 320,
   green = 340,
@@ -5001,6 +5275,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [25080] = {
+  id = 25080,
   name = 'Enchant Gloves - Superior Agility',
   recipe_source_alliance_short = 'Enchant Gloves - Superior Agility',
   recipe_source_alliance_medium = 'Dropped in: "Ahn\'Qiraj", "Ruins of Ahn\'Qiraj"',
@@ -5013,6 +5288,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = true,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 300,
   red = 300,
   yellow = 320,
   green = 340,
@@ -5041,6 +5317,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [25081] = {
+  id = 25081,
   name = 'Enchant Cloak - Greater Fire Resistance',
   recipe_source_alliance_short = 'Enchant Cloak - Greater Fire Resistance',
   recipe_source_alliance_medium = 'Sold by: Kania <Enchanting Supplier> (S)',
@@ -5053,6 +5330,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = true,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 300,
   red = 300,
   yellow = 320,
   green = 340,
@@ -5081,6 +5359,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [25082] = {
+  id = 25082,
   name = 'Enchant Cloak - Greater Nature Resistance',
   recipe_source_alliance_short = 'Enchant Cloak - Greater Nature Resistance',
   recipe_source_alliance_medium = 'Sold by: Kania <Enchanting Supplier> (S)',
@@ -5093,6 +5372,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = true,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 300,
   red = 300,
   yellow = 320,
   green = 340,
@@ -5121,6 +5401,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [25083] = {
+  id = 25083,
   name = 'Enchant Cloak - Stealth',
   recipe_source_alliance_short = 'Enchant Cloak - Stealth',
   recipe_source_alliance_medium = 'Dropped in: "Ruins of Ahn\'Qiraj", "Ahn\'Qiraj"',
@@ -5133,6 +5414,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = true,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 300,
   red = 300,
   yellow = 320,
   green = 340,
@@ -5161,6 +5443,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [25084] = {
+  id = 25084,
   name = 'Enchant Cloak - Subtlety',
   recipe_source_alliance_short = 'Enchant Cloak - Subtlety',
   recipe_source_alliance_medium = 'Dropped by: Emperor Vek\'lor (A)',
@@ -5173,6 +5456,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = true,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 300,
   red = 300,
   yellow = 320,
   green = 340,
@@ -5201,6 +5485,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [25086] = {
+  id = 25086,
   name = 'Enchant Cloak - Dodge',
   recipe_source_alliance_short = 'Enchant Cloak - Dodge',
   recipe_source_alliance_medium = 'Dropped in: "Ahn\'Qiraj", "Ruins of Ahn\'Qiraj"',
@@ -5213,6 +5498,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = true,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 300,
   red = 300,
   yellow = 320,
   green = 340,
@@ -5241,6 +5527,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [25124] = {
+  id = 25124,
   name = 'Minor Wizard Oil',
   recipe_source_alliance_short = 'Minor Wizard Oil',
   recipe_source_alliance_medium = 'Sold in: ',
@@ -5253,6 +5540,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 45,
   red = 45,
   yellow = 55,
   green = 65,
@@ -5281,6 +5569,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [25125] = {
+  id = 25125,
   name = 'Minor Mana Oil',
   recipe_source_alliance_short = 'Minor Mana Oil',
   recipe_source_alliance_medium = 'Sold in: ',
@@ -5293,6 +5582,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 150,
   red = 150,
   yellow = 160,
   green = 170,
@@ -5321,6 +5611,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [25126] = {
+  id = 25126,
   name = 'Lesser Wizard Oil',
   recipe_source_alliance_short = 'Lesser Wizard Oil',
   recipe_source_alliance_medium = 'Sold in: ',
@@ -5333,6 +5624,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 200,
   red = 200,
   yellow = 210,
   green = 220,
@@ -5361,6 +5653,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [25127] = {
+  id = 25127,
   name = 'Lesser Mana Oil',
   recipe_source_alliance_short = 'Lesser Mana Oil',
   recipe_source_alliance_medium = 'Sold by: Kania <Enchanting Supplier> (S)',
@@ -5373,6 +5666,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 250,
   red = 250,
   yellow = 260,
   green = 270,
@@ -5401,6 +5695,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [25128] = {
+  id = 25128,
   name = 'Wizard Oil',
   recipe_source_alliance_short = 'Wizard Oil',
   recipe_source_alliance_medium = 'Sold by: Kania <Enchanting Supplier> (S)',
@@ -5413,6 +5708,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 275,
   red = 275,
   yellow = 285,
   green = 295,
@@ -5441,6 +5737,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [25129] = {
+  id = 25129,
   name = 'Brilliant Wizard Oil',
   recipe_source_alliance_short = 'Brilliant Wizard Oil',
   recipe_source_alliance_medium = 'Sold by: Rin\'wosho the Trader <Zandalar Supplies and Repair> (SV)',
@@ -5453,6 +5750,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = true,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 300,
   red = 300,
   yellow = 310,
   green = 320,
@@ -5481,6 +5779,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [25130] = {
+  id = 25130,
   name = 'Brilliant Mana Oil',
   recipe_source_alliance_short = 'Brilliant Mana Oil',
   recipe_source_alliance_medium = 'Sold by: Rin\'wosho the Trader <Zandalar Supplies and Repair> (SV)',
@@ -5493,6 +5792,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = true,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 300,
   red = 300,
   yellow = 310,
   green = 320,
@@ -5521,6 +5821,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [27837] = {
+  id = 27837,
   name = 'Enchant 2H Weapon - Agility',
   recipe_source_alliance_short = 'Enchant 2H Weapon - Agility',
   recipe_source_alliance_medium = 'Sold by: Meilosh (F)',
@@ -5533,6 +5834,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = true,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 290,
   red = 290,
   yellow = 310,
   green = 330,
@@ -5565,6 +5867,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [430409] = {
+  id = 430409,
   name = 'Blackfathom Mana Oil',
   recipe_source_alliance_short = 'Blackfathom Mana Oil',
   recipe_source_alliance_medium = 'Contained in object: Mysterious Formulae (BD)',
@@ -5577,6 +5880,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = true,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 100,
   red = 0,
   yellow = 100,
   green = 110,
@@ -5605,6 +5909,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [435481] = {
+  id = 435481,
   name = 'Enchant Weapon - Dismantle',
   recipe_source_alliance_short = 'Enchant Weapon - Dismantle',
   recipe_source_alliance_medium = 'Sold by: Ziri "The Wrench" Littlesprocket <Gearhead> (G)',
@@ -5617,6 +5922,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = true,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 200,
   red = 0,
   yellow = 200,
   green = 217,
@@ -5645,6 +5951,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [435903] = {
+  id = 435903,
   name = 'Enchant Chest - Retricutioner',
   recipe_source_alliance_short = 'Enchant Chest - Retricutioner',
   recipe_source_alliance_medium = 'Sold by: Ziri "The Wrench" Littlesprocket <Gearhead> (G)',
@@ -5657,6 +5964,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = true,
   training_cost = nil,
   cast_time = 5,
+  learnedat = 200,
   red = 0,
   yellow = 200,
   green = 220,
@@ -5681,6 +5989,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [439134] = {
+  id = 439134,
   name = 'Greater Mystic Wand',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Annora <Master Enchanter> (U), Kitta Firewind <Artisan Enchanter> (EF)',
@@ -5693,6 +6002,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = nil,
   training_cost = 3000,
   cast_time = 10,
+  learnedat = 175,
   red = 175,
   yellow = 195,
   green = 215,
@@ -5721,6 +6031,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [439156] = {
+  id = 439156,
   name = 'Sigil of Innovation',
   recipe_source_alliance_short = 'Enchanted Sigil: Innovation',
   recipe_source_alliance_medium = 'Sold by: Ziri "The Wrench" Littlesprocket <Gearhead> (G)',
@@ -5733,6 +6044,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = true,
   training_cost = nil,
   cast_time = 3,
+  learnedat = 225,
   red = 0,
   yellow = 225,
   green = 227,
@@ -5753,6 +6065,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [446243] = {
+  id = 446243,
   name = 'Sigil of Living Dreams',
   recipe_source_alliance_short = 'Unknown',
   recipe_source_alliance_medium = 'Unknown',
@@ -5765,6 +6078,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = nil,
   training_cost = nil,
   cast_time = 3,
+  learnedat = 250,
   red = 0,
   yellow = 250,
   green = 255,
@@ -5789,6 +6103,7 @@ ProfessionatorDB.enchanting = {
 
 },
 [448624] = {
+  id = 448624,
   name = 'Scroll of Spatial Mending',
   recipe_source_alliance_short = 'Unknown',
   recipe_source_alliance_medium = 'Unknown',
@@ -5801,6 +6116,7 @@ ProfessionatorDB.enchanting = {
   recipe_item_id_bop = nil,
   training_cost = nil,
   cast_time = 10,
+  learnedat = 120,
   red = 0,
   yellow = 120,
   green = 125,
@@ -5829,6 +6145,7 @@ ProfessionatorDB.enchanting = {
 
 ProfessionatorDB.engineering = {
 [3918] = {
+  id = 3918,
   name = 'Rough Blasting Powder',
   recipe_source_alliance_short = 'Unknown',
   recipe_source_alliance_medium = 'Unknown',
@@ -5841,6 +6158,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = nil,
   training_cost = nil,
   cast_time = 5.125,
+  learnedat = 1,
   red = 1,
   yellow = 20,
   green = 30,
@@ -5857,6 +6175,7 @@ ProfessionatorDB.engineering = {
 
 },
 [3919] = {
+  id = 3919,
   name = 'Rough Dynamite',
   recipe_source_alliance_short = 'Unknown',
   recipe_source_alliance_medium = 'Unknown',
@@ -5869,6 +6188,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = nil,
   training_cost = nil,
   cast_time = 5.125,
+  learnedat = 1,
   red = 1,
   yellow = 30,
   green = 45,
@@ -5889,6 +6209,7 @@ ProfessionatorDB.engineering = {
 
 },
 [3920] = {
+  id = 3920,
   name = 'Crafted Light Shot',
   recipe_source_alliance_short = 'Unknown',
   recipe_source_alliance_medium = 'Unknown',
@@ -5901,6 +6222,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = nil,
   training_cost = nil,
   cast_time = 5.125,
+  learnedat = 30,
   red = 0,
   yellow = 30,
   green = 45,
@@ -5921,6 +6243,7 @@ ProfessionatorDB.engineering = {
 
 },
 [3922] = {
+  id = 3922,
   name = 'Handful of Copper Bolts',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Trainers',
@@ -5933,6 +6256,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = nil,
   training_cost = 115,
   cast_time = 5.125,
+  learnedat = 30,
   red = 30,
   yellow = 45,
   green = 52,
@@ -5953,6 +6277,7 @@ ProfessionatorDB.engineering = {
 
 },
 [3923] = {
+  id = 3923,
   name = 'Rough Copper Bomb',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Trainers',
@@ -5965,6 +6290,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = nil,
   training_cost = 130,
   cast_time = 5.125,
+  learnedat = 30,
   red = 30,
   yellow = 60,
   green = 75,
@@ -5997,6 +6323,7 @@ ProfessionatorDB.engineering = {
 
 },
 [3924] = {
+  id = 3924,
   name = 'Copper Tube',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Trainers',
@@ -6009,6 +6336,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = nil,
   training_cost = 150,
   cast_time = 5.125,
+  learnedat = 50,
   red = 50,
   yellow = 80,
   green = 95,
@@ -6033,6 +6361,7 @@ ProfessionatorDB.engineering = {
 
 },
 [3925] = {
+  id = 3925,
   name = 'Rough Boomstick',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Trainers',
@@ -6045,6 +6374,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = nil,
   training_cost = 150,
   cast_time = 8,
+  learnedat = 50,
   red = 50,
   yellow = 80,
   green = 95,
@@ -6073,6 +6403,7 @@ ProfessionatorDB.engineering = {
 
 },
 [3926] = {
+  id = 3926,
   name = 'Copper Modulator',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Trainers',
@@ -6085,6 +6416,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = nil,
   training_cost = 225,
   cast_time = 5.125,
+  learnedat = 65,
   red = 65,
   yellow = 95,
   green = 110,
@@ -6117,6 +6449,7 @@ ProfessionatorDB.engineering = {
 
 },
 [3928] = {
+  id = 3928,
   name = 'Mechanical Squirrel',
   recipe_source_alliance_short = 'Schematic: Mechanical Squirrel',
   recipe_source_alliance_medium = 'Formula multiple locations',
@@ -6129,6 +6462,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 8,
+  learnedat = 75,
   red = 75,
   yellow = 105,
   green = 120,
@@ -6165,6 +6499,7 @@ ProfessionatorDB.engineering = {
 
 },
 [3929] = {
+  id = 3929,
   name = 'Coarse Blasting Powder',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Trainers',
@@ -6177,6 +6512,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = nil,
   training_cost = 250,
   cast_time = 5.125,
+  learnedat = 75,
   red = 75,
   yellow = 85,
   green = 90,
@@ -6193,6 +6529,7 @@ ProfessionatorDB.engineering = {
 
 },
 [3930] = {
+  id = 3930,
   name = 'Crafted Heavy Shot',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Trainers',
@@ -6205,6 +6542,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = nil,
   training_cost = 250,
   cast_time = 5.125,
+  learnedat = 75,
   red = 75,
   yellow = 85,
   green = 90,
@@ -6225,6 +6563,7 @@ ProfessionatorDB.engineering = {
 
 },
 [3931] = {
+  id = 3931,
   name = 'Coarse Dynamite',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Trainers',
@@ -6237,6 +6576,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = nil,
   training_cost = 250,
   cast_time = 5.125,
+  learnedat = 75,
   red = 75,
   yellow = 90,
   green = 97,
@@ -6257,6 +6597,7 @@ ProfessionatorDB.engineering = {
 
 },
 [3932] = {
+  id = 3932,
   name = 'Target Dummy',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Trainers',
@@ -6269,6 +6610,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = nil,
   training_cost = 300,
   cast_time = 8,
+  learnedat = 85,
   red = 85,
   yellow = 115,
   green = 130,
@@ -6305,6 +6647,7 @@ ProfessionatorDB.engineering = {
 
 },
 [3933] = {
+  id = 3933,
   name = 'Small Seaforium Charge',
   recipe_source_alliance_short = 'Schematic: Small Seaforium Charge',
   recipe_source_alliance_medium = 'Formula multiple locations',
@@ -6317,6 +6660,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 8,
+  learnedat = 100,
   red = 100,
   yellow = 130,
   green = 145,
@@ -6345,6 +6689,7 @@ ProfessionatorDB.engineering = {
 
 },
 [3934] = {
+  id = 3934,
   name = 'Flying Tiger Goggles',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Trainers',
@@ -6357,6 +6702,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = nil,
   training_cost = 400,
   cast_time = 12.5,
+  learnedat = 100,
   red = 100,
   yellow = 130,
   green = 145,
@@ -6381,6 +6727,7 @@ ProfessionatorDB.engineering = {
 
 },
 [3936] = {
+  id = 3936,
   name = 'Deadly Blunderbuss',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Trainers',
@@ -6393,6 +6740,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = nil,
   training_cost = 420,
   cast_time = 25,
+  learnedat = 105,
   red = 105,
   yellow = 130,
   green = 142,
@@ -6429,6 +6777,7 @@ ProfessionatorDB.engineering = {
 
 },
 [3937] = {
+  id = 3937,
   name = 'Large Copper Bomb',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Trainers',
@@ -6441,6 +6790,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = nil,
   training_cost = 450,
   cast_time = 8,
+  learnedat = 105,
   red = 105,
   yellow = 105,
   green = 130,
@@ -6469,6 +6819,7 @@ ProfessionatorDB.engineering = {
 
 },
 [3938] = {
+  id = 3938,
   name = 'Bronze Tube',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Trainers',
@@ -6481,6 +6832,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = nil,
   training_cost = 450,
   cast_time = 5.125,
+  learnedat = 105,
   red = 105,
   yellow = 105,
   green = 130,
@@ -6505,6 +6857,7 @@ ProfessionatorDB.engineering = {
 
 },
 [3939] = {
+  id = 3939,
   name = 'Lovingly Crafted Boomstick',
   recipe_source_alliance_short = 'Schematic: Lovingly Crafted Boomstick',
   recipe_source_alliance_medium = 'Sold by: Fradd Swiftgear <Engineering Supplies> (W), Sold by: Jinky Twizzlefixxit <Engineering Supplies> (TN)',
@@ -6517,6 +6870,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 25,
+  learnedat = 120,
   red = 120,
   yellow = 145,
   green = 157,
@@ -6553,6 +6907,7 @@ ProfessionatorDB.engineering = {
 
 },
 [3940] = {
+  id = 3940,
   name = 'Shadow Goggles',
   recipe_source_alliance_short = 'Schematic: Shadow Goggles',
   recipe_source_alliance_medium = 'Formula multiple locations',
@@ -6565,6 +6920,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 25,
+  learnedat = 120,
   red = 120,
   yellow = 145,
   green = 157,
@@ -6585,6 +6941,7 @@ ProfessionatorDB.engineering = {
 
 },
 [3941] = {
+  id = 3941,
   name = 'Small Bronze Bomb',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Trainers',
@@ -6597,6 +6954,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = nil,
   training_cost = 500,
   cast_time = 8,
+  learnedat = 120,
   red = 120,
   yellow = 120,
   green = 145,
@@ -6629,6 +6987,7 @@ ProfessionatorDB.engineering = {
 
 },
 [3942] = {
+  id = 3942,
   name = 'Whirring Bronze Gizmo',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Trainers',
@@ -6641,6 +7000,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = nil,
   training_cost = 500,
   cast_time = 5.125,
+  learnedat = 125,
   red = 125,
   yellow = 125,
   green = 150,
@@ -6669,6 +7029,7 @@ ProfessionatorDB.engineering = {
 
 },
 [3944] = {
+  id = 3944,
   name = 'Flame Deflector',
   recipe_source_alliance_short = 'Schematic: Flame Deflector',
   recipe_source_alliance_medium = 'Dropped in: "Gnomeregan"',
@@ -6681,6 +7042,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 12.5,
+  learnedat = 125,
   red = 125,
   yellow = 125,
   green = 150,
@@ -6709,6 +7071,7 @@ ProfessionatorDB.engineering = {
 
 },
 [3945] = {
+  id = 3945,
   name = 'Heavy Blasting Powder',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Trainers',
@@ -6721,6 +7084,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = nil,
   training_cost = 500,
   cast_time = 5.125,
+  learnedat = 125,
   red = 125,
   yellow = 125,
   green = 135,
@@ -6737,6 +7101,7 @@ ProfessionatorDB.engineering = {
 
 },
 [3946] = {
+  id = 3946,
   name = 'Heavy Dynamite',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Trainers',
@@ -6749,6 +7114,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = nil,
   training_cost = 500,
   cast_time = 5.125,
+  learnedat = 125,
   red = 125,
   yellow = 125,
   green = 135,
@@ -6769,6 +7135,7 @@ ProfessionatorDB.engineering = {
 
 },
 [3947] = {
+  id = 3947,
   name = 'Crafted Solid Shot',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Trainers',
@@ -6781,6 +7148,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = nil,
   training_cost = 300,
   cast_time = 5.125,
+  learnedat = 125,
   red = 125,
   yellow = 125,
   green = 135,
@@ -6801,6 +7169,7 @@ ProfessionatorDB.engineering = {
 
 },
 [3949] = {
+  id = 3949,
   name = 'Silver-plated Shotgun',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Trainers',
@@ -6813,6 +7182,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = nil,
   training_cost = 550,
   cast_time = 25,
+  learnedat = 130,
   red = 130,
   yellow = 155,
   green = 167,
@@ -6841,6 +7211,7 @@ ProfessionatorDB.engineering = {
 
 },
 [3950] = {
+  id = 3950,
   name = 'Big Bronze Bomb',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Trainers',
@@ -6853,6 +7224,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = nil,
   training_cost = 600,
   cast_time = 8,
+  learnedat = 140,
   red = 140,
   yellow = 140,
   green = 165,
@@ -6885,6 +7257,7 @@ ProfessionatorDB.engineering = {
 
 },
 [3952] = {
+  id = 3952,
   name = 'Minor Recombobulator',
   recipe_source_alliance_short = 'Schematic: Minor Recombobulator',
   recipe_source_alliance_medium = 'Sold in: ',
@@ -6897,6 +7270,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 12.5,
+  learnedat = 140,
   red = 140,
   yellow = 165,
   green = 177,
@@ -6925,6 +7299,7 @@ ProfessionatorDB.engineering = {
 
 },
 [3953] = {
+  id = 3953,
   name = 'Bronze Framework',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Trainers',
@@ -6937,6 +7312,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = nil,
   training_cost = 600,
   cast_time = 5.125,
+  learnedat = 145,
   red = 145,
   yellow = 145,
   green = 170,
@@ -6961,6 +7337,7 @@ ProfessionatorDB.engineering = {
 
 },
 [3954] = {
+  id = 3954,
   name = 'Moonsight Rifle',
   recipe_source_alliance_short = 'Schematic: Moonsight Rifle',
   recipe_source_alliance_medium = 'Formula multiple locations',
@@ -6973,6 +7350,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 25,
+  learnedat = 145,
   red = 145,
   yellow = 170,
   green = 182,
@@ -7009,6 +7387,7 @@ ProfessionatorDB.engineering = {
 
 },
 [3955] = {
+  id = 3955,
   name = 'Explosive Sheep',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Trainers',
@@ -7021,6 +7400,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = nil,
   training_cost = 750,
   cast_time = 8,
+  learnedat = 150,
   red = 150,
   yellow = 175,
   green = 187,
@@ -7057,6 +7437,7 @@ ProfessionatorDB.engineering = {
 
 },
 [3956] = {
+  id = 3956,
   name = 'Green Tinted Goggles',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Trainers',
@@ -7069,6 +7450,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = nil,
   training_cost = 750,
   cast_time = 12.5,
+  learnedat = 150,
   red = 150,
   yellow = 175,
   green = 187,
@@ -7097,6 +7479,7 @@ ProfessionatorDB.engineering = {
 
 },
 [3957] = {
+  id = 3957,
   name = 'Ice Deflector',
   recipe_source_alliance_short = 'Schematic: Ice Deflector',
   recipe_source_alliance_medium = 'Sold by: Rizz Loosebolt <Engineering Supplies> (AM)',
@@ -7109,6 +7492,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 12.5,
+  learnedat = 155,
   red = 155,
   yellow = 175,
   green = 185,
@@ -7137,6 +7521,7 @@ ProfessionatorDB.engineering = {
 
 },
 [3958] = {
+  id = 3958,
   name = 'Iron Strut',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Buzzek Bracketswing <Master Engineer> (T), Springspindle Fizzlegear <Artisan Engineer> (I)',
@@ -7149,6 +7534,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = nil,
   training_cost = 800,
   cast_time = 8,
+  learnedat = 160,
   red = 160,
   yellow = 160,
   green = 170,
@@ -7169,6 +7555,7 @@ ProfessionatorDB.engineering = {
 
 },
 [3959] = {
+  id = 3959,
   name = 'Discombobulator Ray',
   recipe_source_alliance_short = 'Schematic: Discombobulator Ray',
   recipe_source_alliance_medium = 'Dropped in: "Gnomeregan"',
@@ -7181,6 +7568,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 12.5,
+  learnedat = 160,
   red = 160,
   yellow = 180,
   green = 190,
@@ -7217,6 +7605,7 @@ ProfessionatorDB.engineering = {
 
 },
 [3960] = {
+  id = 3960,
   name = 'Portable Bronze Mortar',
   recipe_source_alliance_short = 'Schematic: Portable Bronze Mortar',
   recipe_source_alliance_medium = 'Formula multiple locations',
@@ -7229,6 +7618,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 12.5,
+  learnedat = 165,
   red = 165,
   yellow = 185,
   green = 195,
@@ -7265,6 +7655,7 @@ ProfessionatorDB.engineering = {
 
 },
 [3961] = {
+  id = 3961,
   name = 'Gyrochronatom',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Buzzek Bracketswing <Master Engineer> (T), Springspindle Fizzlegear <Artisan Engineer> (I)',
@@ -7277,6 +7668,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = nil,
   training_cost = 900,
   cast_time = 8,
+  learnedat = 170,
   red = 170,
   yellow = 170,
   green = 190,
@@ -7305,6 +7697,7 @@ ProfessionatorDB.engineering = {
 
 },
 [3962] = {
+  id = 3962,
   name = 'Iron Grenade',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Buzzek Bracketswing <Master Engineer> (T), Springspindle Fizzlegear <Artisan Engineer> (I)',
@@ -7317,6 +7710,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = nil,
   training_cost = 1000,
   cast_time = 8,
+  learnedat = 175,
   red = 175,
   yellow = 175,
   green = 195,
@@ -7345,6 +7739,7 @@ ProfessionatorDB.engineering = {
 
 },
 [3963] = {
+  id = 3963,
   name = 'Compact Harvest Reaper Kit',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Buzzek Bracketswing <Master Engineer> (T), Springspindle Fizzlegear <Artisan Engineer> (I)',
@@ -7357,6 +7752,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = nil,
   training_cost = 1000,
   cast_time = 25,
+  learnedat = 175,
   red = 175,
   yellow = 175,
   green = 195,
@@ -7393,6 +7789,7 @@ ProfessionatorDB.engineering = {
 
 },
 [3965] = {
+  id = 3965,
   name = 'Advanced Target Dummy',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Buzzek Bracketswing <Master Engineer> (T), Springspindle Fizzlegear <Artisan Engineer> (I)',
@@ -7405,6 +7802,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = nil,
   training_cost = 1200,
   cast_time = 12.5,
+  learnedat = 185,
   red = 185,
   yellow = 185,
   green = 205,
@@ -7441,6 +7839,7 @@ ProfessionatorDB.engineering = {
 
 },
 [3966] = {
+  id = 3966,
   name = 'Craftsman\'s Monocle',
   recipe_source_alliance_short = 'Schematic: Craftsman\'s Monocle',
   recipe_source_alliance_medium = 'Formula multiple locations',
@@ -7453,6 +7852,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 25,
+  learnedat = 185,
   red = 185,
   yellow = 205,
   green = 215,
@@ -7481,6 +7881,7 @@ ProfessionatorDB.engineering = {
 
 },
 [3967] = {
+  id = 3967,
   name = 'Big Iron Bomb',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Buzzek Bracketswing <Master Engineer> (T), Springspindle Fizzlegear <Artisan Engineer> (I)',
@@ -7493,6 +7894,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = nil,
   training_cost = 1400,
   cast_time = 12.5,
+  learnedat = 190,
   red = 190,
   yellow = 190,
   green = 210,
@@ -7525,6 +7927,7 @@ ProfessionatorDB.engineering = {
 
 },
 [3968] = {
+  id = 3968,
   name = 'Goblin Land Mine',
   recipe_source_alliance_short = 'Schematic: Goblin Land Mine',
   recipe_source_alliance_medium = 'Formula multiple locations',
@@ -7537,6 +7940,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 12.5,
+  learnedat = 195,
   red = 195,
   yellow = 215,
   green = 225,
@@ -7569,6 +7973,7 @@ ProfessionatorDB.engineering = {
 
 },
 [3969] = {
+  id = 3969,
   name = 'Mechanical Dragonling',
   recipe_source_alliance_short = 'Schematic: Mechanical Dragonling',
   recipe_source_alliance_medium = 'Sold by: Gnaz Blunderflame <Engineering Supplies> (SV)',
@@ -7581,6 +7986,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 45,
+  learnedat = 200,
   red = 200,
   yellow = 220,
   green = 230,
@@ -7621,6 +8027,7 @@ ProfessionatorDB.engineering = {
 
 },
 [3971] = {
+  id = 3971,
   name = 'Gnomish Cloaking Device',
   recipe_source_alliance_short = 'Schematic: Gnomish Cloaking Device',
   recipe_source_alliance_medium = '"Gnomeregan"',
@@ -7633,6 +8040,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 45,
+  learnedat = 200,
   red = 200,
   yellow = 220,
   green = 230,
@@ -7673,6 +8081,7 @@ ProfessionatorDB.engineering = {
 
 },
 [3972] = {
+  id = 3972,
   name = 'Large Seaforium Charge',
   recipe_source_alliance_short = 'Schematic: Large Seaforium Charge',
   recipe_source_alliance_medium = 'Formula multiple locations',
@@ -7685,6 +8094,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 12.5,
+  learnedat = 200,
   red = 200,
   yellow = 200,
   green = 220,
@@ -7709,6 +8119,7 @@ ProfessionatorDB.engineering = {
 
 },
 [3973] = {
+  id = 3973,
   name = 'Silver Contact',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Trainers',
@@ -7721,6 +8132,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = nil,
   training_cost = 300,
   cast_time = 5.125,
+  learnedat = 90,
   red = 90,
   yellow = 110,
   green = 125,
@@ -7737,6 +8149,7 @@ ProfessionatorDB.engineering = {
 
 },
 [3977] = {
+  id = 3977,
   name = 'Crude Scope',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Trainers',
@@ -7749,6 +8162,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = nil,
   training_cost = 200,
   cast_time = 8,
+  learnedat = 60,
   red = 60,
   yellow = 90,
   green = 105,
@@ -7777,6 +8191,7 @@ ProfessionatorDB.engineering = {
 
 },
 [3978] = {
+  id = 3978,
   name = 'Standard Scope',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Trainers',
@@ -7789,6 +8204,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = nil,
   training_cost = 475,
   cast_time = 8,
+  learnedat = 110,
   red = 110,
   yellow = 135,
   green = 147,
@@ -7813,6 +8229,7 @@ ProfessionatorDB.engineering = {
 
 },
 [3979] = {
+  id = 3979,
   name = 'Accurate Scope',
   recipe_source_alliance_short = 'Schematic: Accurate Scope',
   recipe_source_alliance_medium = 'Sold by: Mazk Snipeshot <Engineering Supplies> (SV), Sold by: Super-Seller 680 (D)',
@@ -7825,6 +8242,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 25,
+  learnedat = 180,
   red = 180,
   yellow = 200,
   green = 210,
@@ -7857,6 +8275,7 @@ ProfessionatorDB.engineering = {
 
 },
 [6458] = {
+  id = 6458,
   name = 'Ornate Spyglass',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Trainers',
@@ -7869,6 +8288,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = nil,
   training_cost = 400,
   cast_time = 12.5,
+  learnedat = 135,
   red = 135,
   yellow = 160,
   green = 172,
@@ -7897,6 +8317,7 @@ ProfessionatorDB.engineering = {
 
 },
 [7430] = {
+  id = 7430,
   name = 'Arclight Spanner',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Trainers',
@@ -7909,6 +8330,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = nil,
   training_cost = 150,
   cast_time = 8,
+  learnedat = 50,
   red = 50,
   yellow = 70,
   green = 80,
@@ -7929,6 +8351,7 @@ ProfessionatorDB.engineering = {
 
 },
 [8243] = {
+  id = 8243,
   name = 'Flash Bomb',
   recipe_source_alliance_short = 'Schematic: Flash Bomb',
   recipe_source_alliance_medium = 'Dropped in: "Gnomeregan"',
@@ -7941,6 +8364,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 8,
+  learnedat = 185,
   red = 185,
   yellow = 185,
   green = 205,
@@ -7965,6 +8389,7 @@ ProfessionatorDB.engineering = {
 
 },
 [8334] = {
+  id = 8334,
   name = 'Practice Lock',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Trainers',
@@ -7977,6 +8402,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = nil,
   training_cost = 300,
   cast_time = 8,
+  learnedat = 100,
   red = 100,
   yellow = 115,
   green = 122,
@@ -8005,6 +8431,7 @@ ProfessionatorDB.engineering = {
 
 },
 [8339] = {
+  id = 8339,
   name = 'EZ-Thro Dynamite',
   recipe_source_alliance_short = 'Schematic: EZ-Thro Dynamite',
   recipe_source_alliance_medium = 'Formula multiple locations',
@@ -8017,6 +8444,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 5.125,
+  learnedat = 100,
   red = 100,
   yellow = 115,
   green = 122,
@@ -8037,6 +8465,7 @@ ProfessionatorDB.engineering = {
 
 },
 [8895] = {
+  id = 8895,
   name = 'Goblin Rocket Boots',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Nixx Sprocketspring <Master Goblin Engineer> (T), Vazario Linkgrease <Master Goblin Engineer> (TB)',
@@ -8049,6 +8478,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = nil,
   training_cost = 2200,
   cast_time = 12.5,
+  learnedat = 225,
   red = 225,
   yellow = 245,
   green = 255,
@@ -8089,6 +8519,7 @@ ProfessionatorDB.engineering = {
 
 },
 [9269] = {
+  id = 9269,
   name = 'Gnomish Universal Remote',
   recipe_source_alliance_short = 'Schematic: Gnomish Universal Remote',
   recipe_source_alliance_medium = '"Gnomeregan"',
@@ -8101,6 +8532,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 12.5,
+  learnedat = 125,
   red = 125,
   yellow = 150,
   green = 162,
@@ -8141,6 +8573,7 @@ ProfessionatorDB.engineering = {
 
 },
 [9271] = {
+  id = 9271,
   name = 'Aquadynamic Fish Attractor',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Trainers',
@@ -8153,6 +8586,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = nil,
   training_cost = 500,
   cast_time = 8,
+  learnedat = 150,
   red = 150,
   yellow = 150,
   green = 160,
@@ -8177,6 +8611,7 @@ ProfessionatorDB.engineering = {
 
 },
 [9273] = {
+  id = 9273,
   name = 'Goblin Jumper Cables',
   recipe_source_alliance_short = 'Schematic: Goblin Jumper Cables',
   recipe_source_alliance_medium = '"Gnomeregan"',
@@ -8189,6 +8624,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 12.5,
+  learnedat = 165,
   red = 165,
   yellow = 165,
   green = 180,
@@ -8225,6 +8661,7 @@ ProfessionatorDB.engineering = {
 
 },
 [12584] = {
+  id = 12584,
   name = 'Gold Power Core',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Trainers',
@@ -8237,6 +8674,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = nil,
   training_cost = 1000,
   cast_time = 25,
+  learnedat = 150,
   red = 150,
   yellow = 150,
   green = 170,
@@ -8261,6 +8699,7 @@ ProfessionatorDB.engineering = {
 
 },
 [12585] = {
+  id = 12585,
   name = 'Solid Blasting Powder',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Buzzek Bracketswing <Master Engineer> (T), Springspindle Fizzlegear <Artisan Engineer> (I)',
@@ -8273,6 +8712,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = nil,
   training_cost = 1000,
   cast_time = 8,
+  learnedat = 175,
   red = 175,
   yellow = 175,
   green = 185,
@@ -8289,6 +8729,7 @@ ProfessionatorDB.engineering = {
 
 },
 [12586] = {
+  id = 12586,
   name = 'Solid Dynamite',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Buzzek Bracketswing <Master Engineer> (T), Springspindle Fizzlegear <Artisan Engineer> (I)',
@@ -8301,6 +8742,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = nil,
   training_cost = 1000,
   cast_time = 8,
+  learnedat = 175,
   red = 175,
   yellow = 175,
   green = 185,
@@ -8321,6 +8763,7 @@ ProfessionatorDB.engineering = {
 
 },
 [12587] = {
+  id = 12587,
   name = 'Bright-Eye Goggles',
   recipe_source_alliance_short = 'Schematic: Bright-Eye Goggles',
   recipe_source_alliance_medium = 'Formula multiple locations',
@@ -8333,6 +8776,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 45,
+  learnedat = 175,
   red = 175,
   yellow = 195,
   green = 205,
@@ -8361,6 +8805,7 @@ ProfessionatorDB.engineering = {
 
 },
 [12589] = {
+  id = 12589,
   name = 'Mithril Tube',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Buzzek Bracketswing <Master Engineer> (T), Springspindle Fizzlegear <Artisan Engineer> (I)',
@@ -8373,6 +8818,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = nil,
   training_cost = 1300,
   cast_time = 8,
+  learnedat = 195,
   red = 195,
   yellow = 195,
   green = 215,
@@ -8393,6 +8839,7 @@ ProfessionatorDB.engineering = {
 
 },
 [12590] = {
+  id = 12590,
   name = 'Gyromatic Micro-Adjustor',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Buzzek Bracketswing <Master Engineer> (T), Springspindle Fizzlegear <Artisan Engineer> (I)',
@@ -8405,6 +8852,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = nil,
   training_cost = 1000,
   cast_time = 8,
+  learnedat = 175,
   red = 175,
   yellow = 175,
   green = 195,
@@ -8425,6 +8873,7 @@ ProfessionatorDB.engineering = {
 
 },
 [12591] = {
+  id = 12591,
   name = 'Unstable Trigger',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Buzzek Bracketswing <Master Engineer> (T), Springspindle Fizzlegear <Artisan Engineer> (I)',
@@ -8437,6 +8886,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = nil,
   training_cost = 1500,
   cast_time = 8,
+  learnedat = 200,
   red = 200,
   yellow = 200,
   green = 220,
@@ -8469,6 +8919,7 @@ ProfessionatorDB.engineering = {
 
 },
 [12594] = {
+  id = 12594,
   name = 'Fire Goggles',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Buzzek Bracketswing <Master Engineer> (T), Springspindle Fizzlegear <Artisan Engineer> (I)',
@@ -8481,6 +8932,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = nil,
   training_cost = 1600,
   cast_time = 45,
+  learnedat = 205,
   red = 205,
   yellow = 225,
   green = 235,
@@ -8517,6 +8969,7 @@ ProfessionatorDB.engineering = {
 
 },
 [12595] = {
+  id = 12595,
   name = 'Mithril Blunderbuss',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Buzzek Bracketswing <Master Engineer> (T), Springspindle Fizzlegear <Artisan Engineer> (I)',
@@ -8529,6 +8982,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = nil,
   training_cost = 1600,
   cast_time = 45,
+  learnedat = 205,
   red = 205,
   yellow = 225,
   green = 235,
@@ -8569,6 +9023,7 @@ ProfessionatorDB.engineering = {
 
 },
 [12596] = {
+  id = 12596,
   name = 'Hi-Impact Mithril Slugs',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Buzzek Bracketswing <Master Engineer> (T), Springspindle Fizzlegear <Artisan Engineer> (I)',
@@ -8581,6 +9036,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = nil,
   training_cost = 1700,
   cast_time = 8,
+  learnedat = 210,
   red = 210,
   yellow = 210,
   green = 230,
@@ -8605,6 +9061,7 @@ ProfessionatorDB.engineering = {
 
 },
 [12597] = {
+  id = 12597,
   name = 'Deadly Scope',
   recipe_source_alliance_short = 'Schematic: Deadly Scope',
   recipe_source_alliance_medium = 'Sold by: Knaz Blunderflame <Engineering Supplies> (SV), Sold by: Yuka Screwspigot (BS)',
@@ -8617,6 +9074,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 45,
+  learnedat = 210,
   red = 210,
   yellow = 230,
   green = 240,
@@ -8649,6 +9107,7 @@ ProfessionatorDB.engineering = {
 
 },
 [12599] = {
+  id = 12599,
   name = 'Mithril Casing',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Buzzek Bracketswing <Master Engineer> (T), Springspindle Fizzlegear <Artisan Engineer> (I)',
@@ -8661,6 +9120,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = nil,
   training_cost = 1800,
   cast_time = 8,
+  learnedat = 215,
   red = 215,
   yellow = 215,
   green = 235,
@@ -8685,6 +9145,7 @@ ProfessionatorDB.engineering = {
 
 },
 [12603] = {
+  id = 12603,
   name = 'Mithril Frag Bomb',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Buzzek Bracketswing <Master Engineer> (T), Springspindle Fizzlegear <Artisan Engineer> (I)',
@@ -8697,6 +9158,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = nil,
   training_cost = 1800,
   cast_time = 8,
+  learnedat = 215,
   red = 215,
   yellow = 215,
   green = 235,
@@ -8729,6 +9191,7 @@ ProfessionatorDB.engineering = {
 
 },
 [12607] = {
+  id = 12607,
   name = 'Catseye Ultra Goggles',
   recipe_source_alliance_short = 'Schematic: Catseye Ultra Goggles',
   recipe_source_alliance_medium = 'Formula multiple locations',
@@ -8741,6 +9204,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 45,
+  learnedat = 220,
   red = 220,
   yellow = 240,
   green = 250,
@@ -8773,6 +9237,7 @@ ProfessionatorDB.engineering = {
 
 },
 [12614] = {
+  id = 12614,
   name = 'Mithril Heavy-bore Rifle',
   recipe_source_alliance_short = 'Schematic: Mithril Heavy-bore Rifle',
   recipe_source_alliance_medium = 'Formula multiple locations',
@@ -8785,6 +9250,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 45,
+  learnedat = 220,
   red = 220,
   yellow = 240,
   green = 250,
@@ -8825,6 +9291,7 @@ ProfessionatorDB.engineering = {
 
 },
 [12615] = {
+  id = 12615,
   name = 'Spellpower Goggles Xtreme',
   recipe_source_alliance_short = 'Schematic: Spellpower Goggles Xtreme',
   recipe_source_alliance_medium = 'Formula multiple locations',
@@ -8837,6 +9304,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 45,
+  learnedat = 225,
   red = 225,
   yellow = 245,
   green = 255,
@@ -8865,6 +9333,7 @@ ProfessionatorDB.engineering = {
 
 },
 [12616] = {
+  id = 12616,
   name = 'Parachute Cloak',
   recipe_source_alliance_short = 'Schematic: Parachute Cloak',
   recipe_source_alliance_medium = 'Formula multiple locations',
@@ -8877,6 +9346,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 45,
+  learnedat = 225,
   red = 225,
   yellow = 245,
   green = 255,
@@ -8913,6 +9383,7 @@ ProfessionatorDB.engineering = {
 
 },
 [12617] = {
+  id = 12617,
   name = 'Deepdive Helmet',
   recipe_source_alliance_short = 'Schematic: Deepdive Helmet',
   recipe_source_alliance_medium = 'Sold by: Jubie Gadgetspring <Engineering Supplier> (A)',
@@ -8925,6 +9396,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 45,
+  learnedat = 230,
   red = 230,
   yellow = 250,
   green = 260,
@@ -8965,6 +9437,7 @@ ProfessionatorDB.engineering = {
 
 },
 [12618] = {
+  id = 12618,
   name = 'Rose Colored Goggles',
   recipe_source_alliance_short = 'Buzzek Bracketswing (T)',
   recipe_source_alliance_medium = 'Buzzek Bracketswing <Master Engineer> (T)',
@@ -8977,6 +9450,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = nil,
   training_cost = 2200,
   cast_time = 45,
+  learnedat = 230,
   red = 230,
   yellow = 250,
   green = 260,
@@ -9005,6 +9479,7 @@ ProfessionatorDB.engineering = {
 
 },
 [12619] = {
+  id = 12619,
   name = 'Hi-Explosive Bomb',
   recipe_source_alliance_short = 'Buzzek Bracketswing (T)',
   recipe_source_alliance_medium = 'Buzzek Bracketswing <Master Engineer> (T)',
@@ -9017,6 +9492,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = nil,
   training_cost = 2400,
   cast_time = 8,
+  learnedat = 235,
   red = 235,
   yellow = 235,
   green = 255,
@@ -9049,6 +9525,7 @@ ProfessionatorDB.engineering = {
 
 },
 [12620] = {
+  id = 12620,
   name = 'Sniper Scope',
   recipe_source_alliance_short = 'Schematic: Sniper Scope',
   recipe_source_alliance_medium = 'Formula multiple locations',
@@ -9061,6 +9538,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 45,
+  learnedat = 240,
   red = 240,
   yellow = 260,
   green = 270,
@@ -9093,6 +9571,7 @@ ProfessionatorDB.engineering = {
 
 },
 [12621] = {
+  id = 12621,
   name = 'Mithril Gyro-Shot',
   recipe_source_alliance_short = 'Buzzek Bracketswing (T)',
   recipe_source_alliance_medium = 'Buzzek Bracketswing <Master Engineer> (T)',
@@ -9105,6 +9584,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = nil,
   training_cost = 2800,
   cast_time = 8,
+  learnedat = 245,
   red = 245,
   yellow = 245,
   green = 265,
@@ -9129,6 +9609,7 @@ ProfessionatorDB.engineering = {
 
 },
 [12622] = {
+  id = 12622,
   name = 'Green Lens',
   recipe_source_alliance_short = 'Buzzek Bracketswing (T)',
   recipe_source_alliance_medium = 'Buzzek Bracketswing <Master Engineer> (T)',
@@ -9141,6 +9622,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = nil,
   training_cost = 2800,
   cast_time = 45,
+  learnedat = 245,
   red = 245,
   yellow = 265,
   green = 275,
@@ -9181,6 +9663,7 @@ ProfessionatorDB.engineering = {
 
 },
 [12624] = {
+  id = 12624,
   name = 'Mithril Mechanical Dragonling',
   recipe_source_alliance_short = 'Schematic: Mithril Mechanical Dragonling',
   recipe_source_alliance_medium = 'Sold by: Ruppo Zipcoil <Engineering Supplies> (TH)',
@@ -9193,6 +9676,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 45,
+  learnedat = 250,
   red = 250,
   yellow = 270,
   green = 280,
@@ -9237,6 +9721,7 @@ ProfessionatorDB.engineering = {
 
 },
 [12715] = {
+  id = 12715,
   name = 'Goblin Rocket Fuel Recipe',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Nixx Sprocketspring <Master Goblin Engineer> (T), Vazario Linkgrease <Master Goblin Engineer> (TB)',
@@ -9249,6 +9734,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = nil,
   training_cost = 1000,
   cast_time = 25,
+  learnedat = 205,
   red = 205,
   yellow = 205,
   green = 205,
@@ -9269,6 +9755,7 @@ ProfessionatorDB.engineering = {
 
 },
 [12716] = {
+  id = 12716,
   name = 'Goblin Mortar',
   recipe_source_alliance_short = 'Schematic: Goblin Mortar',
   recipe_source_alliance_medium = 'Sold by: Maximillian "The Greaser" (TN)',
@@ -9281,6 +9768,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = true,
   training_cost = nil,
   cast_time = 25,
+  learnedat = 225,
   red = 0,
   yellow = 225,
   green = 235,
@@ -9321,6 +9809,7 @@ ProfessionatorDB.engineering = {
 
 },
 [12717] = {
+  id = 12717,
   name = 'Goblin Mining Helmet',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Nixx Sprocketspring <Master Goblin Engineer> (T), Vazario Linkgrease <Master Goblin Engineer> (TB)',
@@ -9333,6 +9822,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = true,
   training_cost = 1500,
   cast_time = 25,
+  learnedat = 205,
   red = 205,
   yellow = 225,
   green = 235,
@@ -9365,6 +9855,7 @@ ProfessionatorDB.engineering = {
 
 },
 [12718] = {
+  id = 12718,
   name = 'Goblin Construction Helmet',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Nixx Sprocketspring <Master Goblin Engineer> (T), Vazario Linkgrease <Master Goblin Engineer> (TB)',
@@ -9377,6 +9868,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = true,
   training_cost = 1500,
   cast_time = 25,
+  learnedat = 205,
   red = 205,
   yellow = 225,
   green = 235,
@@ -9409,6 +9901,7 @@ ProfessionatorDB.engineering = {
 
 },
 [12754] = {
+  id = 12754,
   name = 'The Big One',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Nixx Sprocketspring <Master Goblin Engineer> (T), Vazario Linkgrease <Master Goblin Engineer> (TB)',
@@ -9421,6 +9914,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = true,
   training_cost = 2600,
   cast_time = 12.5,
+  learnedat = 235,
   red = 235,
   yellow = 235,
   green = 255,
@@ -9457,6 +9951,7 @@ ProfessionatorDB.engineering = {
 
 },
 [12755] = {
+  id = 12755,
   name = 'Goblin Bomb Dispenser',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Nixx Sprocketspring <Master Goblin Engineer> (T), Vazario Linkgrease <Master Goblin Engineer> (TB)',
@@ -9469,6 +9964,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = true,
   training_cost = 2400,
   cast_time = 12.5,
+  learnedat = 230,
   red = 230,
   yellow = 230,
   green = 250,
@@ -9509,6 +10005,7 @@ ProfessionatorDB.engineering = {
 
 },
 [12758] = {
+  id = 12758,
   name = 'Goblin Rocket Helmet',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Nixx Sprocketspring <Master Goblin Engineer> (T), Vazario Linkgrease <Master Goblin Engineer> (TB)',
@@ -9521,6 +10018,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = true,
   training_cost = 3000,
   cast_time = 12.5,
+  learnedat = 245,
   red = 245,
   yellow = 265,
   green = 275,
@@ -9557,6 +10055,7 @@ ProfessionatorDB.engineering = {
 
 },
 [12759] = {
+  id = 12759,
   name = 'Gnomish Death Ray',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Oglethorpe Obnoticus <Master Gnome Engineer> (SV), Tinkmaster Overspark <Master Gnome Engineer> (I)',
@@ -9569,6 +10068,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = true,
   training_cost = 2800,
   cast_time = 12.5,
+  learnedat = 240,
   red = 240,
   yellow = 260,
   green = 270,
@@ -9609,6 +10109,7 @@ ProfessionatorDB.engineering = {
 
 },
 [12760] = {
+  id = 12760,
   name = 'Goblin Sapper Charge',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Nixx Sprocketspring <Master Goblin Engineer> (T), Vazario Linkgrease <Master Goblin Engineer> (TB)',
@@ -9621,6 +10122,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = true,
   training_cost = 1500,
   cast_time = 25,
+  learnedat = 205,
   red = 205,
   yellow = 205,
   green = 225,
@@ -9645,6 +10147,7 @@ ProfessionatorDB.engineering = {
 
 },
 [12895] = {
+  id = 12895,
   name = 'Inlaid Mithril Cylinder Plans',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Oglethorpe Obnoticus <Master Gnome Engineer> (SV), Tinkmaster Overspark <Master Gnome Engineer> (I)',
@@ -9657,6 +10160,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = nil,
   training_cost = 1500,
   cast_time = 25,
+  learnedat = 205,
   red = 205,
   yellow = 205,
   green = 205,
@@ -9677,6 +10181,7 @@ ProfessionatorDB.engineering = {
 
 },
 [12897] = {
+  id = 12897,
   name = 'Gnomish Goggles',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Oglethorpe Obnoticus <Master Gnome Engineer> (SV), Tinkmaster Overspark <Master Gnome Engineer> (I)',
@@ -9689,6 +10194,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = true,
   training_cost = 1500,
   cast_time = 45,
+  learnedat = 210,
   red = 210,
   yellow = 230,
   green = 240,
@@ -9729,6 +10235,7 @@ ProfessionatorDB.engineering = {
 
 },
 [12899] = {
+  id = 12899,
   name = 'Gnomish Shrink Ray',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Oglethorpe Obnoticus <Master Gnome Engineer> (SV), Tinkmaster Overspark <Master Gnome Engineer> (I)',
@@ -9741,6 +10248,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = true,
   training_cost = 1500,
   cast_time = 25,
+  learnedat = 205,
   red = 205,
   yellow = 225,
   green = 235,
@@ -9781,6 +10289,7 @@ ProfessionatorDB.engineering = {
 
 },
 [12902] = {
+  id = 12902,
   name = 'Gnomish Net-o-Matic Projector',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Oglethorpe Obnoticus <Master Gnome Engineer> (SV), Tinkmaster Overspark <Master Gnome Engineer> (I)',
@@ -9793,6 +10302,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = true,
   training_cost = 1800,
   cast_time = 25,
+  learnedat = 210,
   red = 210,
   yellow = 230,
   green = 240,
@@ -9833,6 +10343,7 @@ ProfessionatorDB.engineering = {
 
 },
 [12903] = {
+  id = 12903,
   name = 'Gnomish Harm Prevention Belt',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Oglethorpe Obnoticus <Master Gnome Engineer> (SV), Tinkmaster Overspark <Master Gnome Engineer> (I)',
@@ -9845,6 +10356,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = true,
   training_cost = 2000,
   cast_time = 45,
+  learnedat = 215,
   red = 215,
   yellow = 235,
   green = 245,
@@ -9885,6 +10397,7 @@ ProfessionatorDB.engineering = {
 
 },
 [12905] = {
+  id = 12905,
   name = 'Gnomish Rocket Boots',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Oglethorpe Obnoticus <Master Gnome Engineer> (SV), Tinkmaster Overspark <Master Gnome Engineer> (I)',
@@ -9897,6 +10410,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = true,
   training_cost = 2200,
   cast_time = 12.5,
+  learnedat = 225,
   red = 225,
   yellow = 245,
   green = 255,
@@ -9937,6 +10451,7 @@ ProfessionatorDB.engineering = {
 
 },
 [12906] = {
+  id = 12906,
   name = 'Gnomish Battle Chicken',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Oglethorpe Obnoticus <Master Gnome Engineer> (SV), Tinkmaster Overspark <Master Gnome Engineer> (I)',
@@ -9949,6 +10464,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = true,
   training_cost = 2400,
   cast_time = 25,
+  learnedat = 230,
   red = 230,
   yellow = 250,
   green = 260,
@@ -9993,6 +10509,7 @@ ProfessionatorDB.engineering = {
 
 },
 [12907] = {
+  id = 12907,
   name = 'Gnomish Mind Control Cap',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Oglethorpe Obnoticus <Master Gnome Engineer> (SV), Tinkmaster Overspark <Master Gnome Engineer> (I)',
@@ -10005,6 +10522,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = true,
   training_cost = 2600,
   cast_time = 25,
+  learnedat = 235,
   red = 235,
   yellow = 255,
   green = 265,
@@ -10045,6 +10563,7 @@ ProfessionatorDB.engineering = {
 
 },
 [12908] = {
+  id = 12908,
   name = 'Goblin Dragon Gun',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Nixx Sprocketspring <Master Goblin Engineer> (T), Vazario Linkgrease <Master Goblin Engineer> (TB)',
@@ -10057,6 +10576,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = true,
   training_cost = 2800,
   cast_time = 25,
+  learnedat = 240,
   red = 240,
   yellow = 260,
   green = 270,
@@ -10097,6 +10617,7 @@ ProfessionatorDB.engineering = {
 
 },
 [13240] = {
+  id = 13240,
   name = 'The Mortar: Reloaded',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Nixx Sprocketspring <Master Goblin Engineer> (T), Vazario Linkgrease <Master Goblin Engineer> (TB)',
@@ -10109,6 +10630,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = true,
   training_cost = 1500,
   cast_time = 25,
+  learnedat = 205,
   red = nil,
   yellow = nil,
   green = nil,
@@ -10141,6 +10663,7 @@ ProfessionatorDB.engineering = {
 
 },
 [15255] = {
+  id = 15255,
   name = 'Mechanical Repair Kit',
   recipe_source_alliance_short = 'Trainers',
   recipe_source_alliance_medium = 'Buzzek Bracketswing <Master Engineer> (T), Springspindle Fizzlegear <Artisan Engineer> (I)',
@@ -10153,6 +10676,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = nil,
   training_cost = 1500,
   cast_time = 8,
+  learnedat = 200,
   red = 200,
   yellow = 200,
   green = 220,
@@ -10185,6 +10709,7 @@ ProfessionatorDB.engineering = {
 
 },
 [15628] = {
+  id = 15628,
   name = 'Pet Bombling',
   recipe_source_alliance_short = 'Schematic: Pet Bombling',
   recipe_source_alliance_medium = 'Contained in: Goblin Engineer\'s Renewal Gift',
@@ -10197,6 +10722,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = true,
   training_cost = nil,
   cast_time = 25,
+  learnedat = 205,
   red = 205,
   yellow = 205,
   green = 205,
@@ -10233,6 +10759,7 @@ ProfessionatorDB.engineering = {
 
 },
 [15633] = {
+  id = 15633,
   name = 'Lil\' Smoky',
   recipe_source_alliance_short = 'Schematic: Lil\' Smoky',
   recipe_source_alliance_medium = 'Contained in: Gnome Engineer\'s Renewal Gift',
@@ -10245,6 +10772,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = true,
   training_cost = nil,
   cast_time = 25,
+  learnedat = 205,
   red = 205,
   yellow = 205,
   green = 205,
@@ -10285,6 +10813,7 @@ ProfessionatorDB.engineering = {
 
 },
 [19567] = {
+  id = 19567,
   name = 'Salt Shaker',
   recipe_source_alliance_short = 'Buzzek Bracketswing (T)',
   recipe_source_alliance_medium = 'Buzzek Bracketswing <Master Engineer> (T)',
@@ -10297,6 +10826,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = nil,
   training_cost = 4000,
   cast_time = 45,
+  learnedat = 250,
   red = 250,
   yellow = 270,
   green = 280,
@@ -10329,6 +10859,7 @@ ProfessionatorDB.engineering = {
 
 },
 [19788] = {
+  id = 19788,
   name = 'Dense Blasting Powder',
   recipe_source_alliance_short = 'Buzzek Bracketswing (T)',
   recipe_source_alliance_medium = 'Buzzek Bracketswing <Master Engineer> (T)',
@@ -10341,6 +10872,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = nil,
   training_cost = 4000,
   cast_time = 8,
+  learnedat = 250,
   red = 250,
   yellow = 250,
   green = 255,
@@ -10357,6 +10889,7 @@ ProfessionatorDB.engineering = {
 
 },
 [19790] = {
+  id = 19790,
   name = 'Thorium Grenade',
   recipe_source_alliance_short = 'Schematic: Thorium Grenade',
   recipe_source_alliance_medium = 'Sold by: Sovik <Engineering Supplies> (O), Sold by: Gearcutter Cogspinner <Engineering Supplies> (I)',
@@ -10369,6 +10902,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 8,
+  learnedat = 260,
   red = 260,
   yellow = 280,
   green = 290,
@@ -10401,6 +10935,7 @@ ProfessionatorDB.engineering = {
 
 },
 [19791] = {
+  id = 19791,
   name = 'Thorium Widget',
   recipe_source_alliance_short = 'Schematic: Thorium Widget',
   recipe_source_alliance_medium = 'Sold by: Sovik <Engineering Supplies> (O), Sold by: Gearcutter Cogspinner <Engineering Supplies> (I)',
@@ -10413,6 +10948,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 8,
+  learnedat = 260,
   red = 260,
   yellow = 280,
   green = 290,
@@ -10441,6 +10977,7 @@ ProfessionatorDB.engineering = {
 
 },
 [19792] = {
+  id = 19792,
   name = 'Thorium Rifle',
   recipe_source_alliance_short = 'Schematic: Thorium Rifle',
   recipe_source_alliance_medium = 'Formula multiple locations',
@@ -10453,6 +10990,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 45,
+  learnedat = 260,
   red = 260,
   yellow = 280,
   green = 290,
@@ -10493,6 +11031,7 @@ ProfessionatorDB.engineering = {
 
 },
 [19793] = {
+  id = 19793,
   name = 'Lifelike Mechanical Toad',
   recipe_source_alliance_short = 'Schematic: Lifelike Mechanical Toad',
   recipe_source_alliance_medium = 'Formula multiple locations',
@@ -10505,6 +11044,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 8,
+  learnedat = 265,
   red = 265,
   yellow = 285,
   green = 295,
@@ -10541,6 +11081,7 @@ ProfessionatorDB.engineering = {
 
 },
 [19794] = {
+  id = 19794,
   name = 'Spellpower Goggles Xtreme Plus',
   recipe_source_alliance_short = 'Schematic: Spellpower Goggles Xtreme Plus',
   recipe_source_alliance_medium = 'Dropped by: Spitelash Siren (A)',
@@ -10553,6 +11094,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 45,
+  learnedat = 270,
   red = 270,
   yellow = 290,
   green = 300,
@@ -10589,6 +11131,7 @@ ProfessionatorDB.engineering = {
 
 },
 [19795] = {
+  id = 19795,
   name = 'Thorium Tube',
   recipe_source_alliance_short = 'Schematic: Thorium Tube',
   recipe_source_alliance_medium = 'Sold by: Xizzer Fizzbolt <Engineering Supplies> (W)',
@@ -10601,6 +11144,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 8,
+  learnedat = 275,
   red = 275,
   yellow = 295,
   green = 305,
@@ -10625,6 +11169,7 @@ ProfessionatorDB.engineering = {
 
 },
 [19796] = {
+  id = 19796,
   name = 'Dark Iron Rifle',
   recipe_source_alliance_short = 'Schematic: Dark Iron Rifle',
   recipe_source_alliance_medium = 'Dropped by: Doomforge Craftsman (BD)',
@@ -10637,6 +11182,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 45,
+  learnedat = 275,
   red = 275,
   yellow = 295,
   green = 305,
@@ -10681,6 +11227,7 @@ ProfessionatorDB.engineering = {
 
 },
 [19799] = {
+  id = 19799,
   name = 'Dark Iron Bomb',
   recipe_source_alliance_short = 'Schematic: Dark Iron Bomb',
   recipe_source_alliance_medium = 'Dropped by: Weapon Technician (BD)',
@@ -10693,6 +11240,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 8,
+  learnedat = 285,
   red = 285,
   yellow = 305,
   green = 315,
@@ -10725,6 +11273,7 @@ ProfessionatorDB.engineering = {
 
 },
 [19800] = {
+  id = 19800,
   name = 'Thorium Shells',
   recipe_source_alliance_short = 'Schematic: Thorium Shells',
   recipe_source_alliance_medium = 'Formula multiple locations',
@@ -10737,6 +11286,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 8,
+  learnedat = 285,
   red = 285,
   yellow = 305,
   green = 315,
@@ -10761,6 +11311,7 @@ ProfessionatorDB.engineering = {
 
 },
 [19814] = {
+  id = 19814,
   name = 'Masterwork Target Dummy',
   recipe_source_alliance_short = 'Schematic: Masterwork Target Dummy',
   recipe_source_alliance_medium = 'Sold by: Xizzer Fizzbolt <Engineering Supplies> (W)',
@@ -10773,6 +11324,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 12.5,
+  learnedat = 275,
   red = 275,
   yellow = 295,
   green = 305,
@@ -10817,6 +11369,7 @@ ProfessionatorDB.engineering = {
 
 },
 [19815] = {
+  id = 19815,
   name = 'Delicate Arcanite Converter',
   recipe_source_alliance_short = 'Schematic: Delicate Arcanite Converter',
   recipe_source_alliance_medium = 'Sold by: Xizzer Fizzbolt <Engineering Supplies> (W)',
@@ -10829,6 +11382,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 8,
+  learnedat = 285,
   red = 285,
   yellow = 305,
   green = 315,
@@ -10857,6 +11411,7 @@ ProfessionatorDB.engineering = {
 
 },
 [19819] = {
+  id = 19819,
   name = 'Voice Amplification Modulator',
   recipe_source_alliance_short = 'Schematic: Voice Amplification Modulator',
   recipe_source_alliance_medium = 'Dropped by: Crimson Inquisitor (S)',
@@ -10869,6 +11424,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 8,
+  learnedat = 290,
   red = 290,
   yellow = 310,
   green = 320,
@@ -10905,6 +11461,7 @@ ProfessionatorDB.engineering = {
 
 },
 [19825] = {
+  id = 19825,
   name = 'Master Engineer\'s Goggles',
   recipe_source_alliance_short = 'Schematic: Master Engineer\'s Goggles',
   recipe_source_alliance_medium = 'Dropped by: Doomforge Arcanasmith (BD)',
@@ -10917,6 +11474,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 60,
+  learnedat = 290,
   red = 290,
   yellow = 310,
   green = 320,
@@ -10949,6 +11507,7 @@ ProfessionatorDB.engineering = {
 
 },
 [19830] = {
+  id = 19830,
   name = 'Arcanite Dragonling',
   recipe_source_alliance_short = 'Schematic: Arcanite Dragonling',
   recipe_source_alliance_medium = 'Dropped by: Cobalt Mageweaver (W)',
@@ -10961,6 +11520,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 60,
+  learnedat = 300,
   red = 300,
   yellow = 320,
   green = 330,
@@ -11005,6 +11565,7 @@ ProfessionatorDB.engineering = {
 
 },
 [19831] = {
+  id = 19831,
   name = 'Arcane Bomb',
   recipe_source_alliance_short = 'Schematic: Arcane Bomb',
   recipe_source_alliance_medium = 'Formula multiple locations',
@@ -11017,6 +11578,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 8,
+  learnedat = 300,
   red = 300,
   yellow = 320,
   green = 330,
@@ -11045,6 +11607,7 @@ ProfessionatorDB.engineering = {
 
 },
 [19833] = {
+  id = 19833,
   name = 'Flawless Arcanite Rifle',
   recipe_source_alliance_short = 'Schematic: Flawless Arcanite Rifle',
   recipe_source_alliance_medium = 'Dropped by: Mossflayer Shadowhunter (EP)',
@@ -11057,6 +11620,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 60,
+  learnedat = 300,
   red = 300,
   yellow = 320,
   green = 330,
@@ -11101,6 +11665,7 @@ ProfessionatorDB.engineering = {
 
 },
 [21940] = {
+  id = 21940,
   name = 'SnowMaster 9000',
   recipe_source_alliance_short = 'Schematic: Snowmaster 9000',
   recipe_source_alliance_medium = 'Found in: ',
@@ -11113,6 +11678,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 25,
+  learnedat = 190,
   red = 190,
   yellow = 190,
   green = 210,
@@ -11149,6 +11715,7 @@ ProfessionatorDB.engineering = {
 
 },
 [22704] = {
+  id = 22704,
   name = 'Field Repair Bot 74A',
   recipe_source_alliance_short = 'Schematic: Field Repair Bot 74A',
   recipe_source_alliance_medium = '',
@@ -11161,6 +11728,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 60,
+  learnedat = 300,
   red = 300,
   yellow = 320,
   green = 330,
@@ -11201,6 +11769,7 @@ ProfessionatorDB.engineering = {
 
 },
 [22793] = {
+  id = 22793,
   name = 'Biznicks 247x128 Accurascope',
   recipe_source_alliance_short = 'Schematic: Biznicks 247x128 Accurascope',
   recipe_source_alliance_medium = 'Dropped in: "Molten Core"',
@@ -11213,6 +11782,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = true,
   training_cost = nil,
   cast_time = 45,
+  learnedat = 300,
   red = 300,
   yellow = 320,
   green = 330,
@@ -11253,6 +11823,7 @@ ProfessionatorDB.engineering = {
 
 },
 [22795] = {
+  id = 22795,
   name = 'Core Marksman Rifle',
   recipe_source_alliance_short = 'Schematic: Core Marksman Rifle',
   recipe_source_alliance_medium = 'Dropped in: "Molten Core"',
@@ -11265,6 +11836,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = true,
   training_cost = nil,
   cast_time = 60,
+  learnedat = 300,
   red = 300,
   yellow = 320,
   green = 330,
@@ -11305,6 +11877,7 @@ ProfessionatorDB.engineering = {
 
 },
 [22797] = {
+  id = 22797,
   name = 'Force Reactive Disk',
   recipe_source_alliance_short = 'Schematic: Force Reactive Disk',
   recipe_source_alliance_medium = 'Dropped in: "Molten Core"',
@@ -11317,6 +11890,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = true,
   training_cost = nil,
   cast_time = 60,
+  learnedat = 300,
   red = 300,
   yellow = 320,
   green = 330,
@@ -11357,6 +11931,7 @@ ProfessionatorDB.engineering = {
 
 },
 [23066] = {
+  id = 23066,
   name = 'Red Firework',
   recipe_source_alliance_short = 'Schematic: Red Firework',
   recipe_source_alliance_medium = 'Sold by: Sovik <Engineering Supplies> (O)',
@@ -11369,6 +11944,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 5.125,
+  learnedat = 150,
   red = 150,
   yellow = 150,
   green = 162,
@@ -11389,6 +11965,7 @@ ProfessionatorDB.engineering = {
 
 },
 [23067] = {
+  id = 23067,
   name = 'Blue Firework',
   recipe_source_alliance_short = 'Schematic: Blue Firework',
   recipe_source_alliance_medium = 'Sold by: Darian Singh <Fireworks Vendor> (SC), Sold by: Gearcutter Cogspinner <Engineering Supplies> (I)',
@@ -11401,6 +11978,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 5.125,
+  learnedat = 150,
   red = 150,
   yellow = 150,
   green = 162,
@@ -11421,6 +11999,7 @@ ProfessionatorDB.engineering = {
 
 },
 [23068] = {
+  id = 23068,
   name = 'Green Firework',
   recipe_source_alliance_short = 'Schematic: Green Firework',
   recipe_source_alliance_medium = 'Sold by: Crazk Sparks <Fireworks Merchant> (SV), Sold by: Gagsprocket <Engineering Goods> (TB)',
@@ -11433,6 +12012,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 5.125,
+  learnedat = 150,
   red = 150,
   yellow = 150,
   green = 162,
@@ -11453,6 +12033,7 @@ ProfessionatorDB.engineering = {
 
 },
 [23069] = {
+  id = 23069,
   name = 'EZ-Thro Dynamite II',
   recipe_source_alliance_short = 'Schematic: EZ-Thro Dynamite II',
   recipe_source_alliance_medium = 'Sold by: Blizrik Buckshot <Gunsmith> (T)',
@@ -11465,6 +12046,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 5.125,
+  learnedat = 200,
   red = 200,
   yellow = 200,
   green = 210,
@@ -11485,6 +12067,7 @@ ProfessionatorDB.engineering = {
 
 },
 [23070] = {
+  id = 23070,
   name = 'Dense Dynamite',
   recipe_source_alliance_short = 'Buzzek Bracketswing (T)',
   recipe_source_alliance_medium = 'Buzzek Bracketswing <Master Engineer> (T)',
@@ -11497,6 +12080,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = nil,
   training_cost = 5000,
   cast_time = 8,
+  learnedat = 250,
   red = 250,
   yellow = 250,
   green = 260,
@@ -11517,6 +12101,7 @@ ProfessionatorDB.engineering = {
 
 },
 [23071] = {
+  id = 23071,
   name = 'Truesilver Transformer',
   recipe_source_alliance_short = 'Schematic: Truesilver Transformer',
   recipe_source_alliance_medium = 'Sold by: Mazk Snipeshot <Engineering Supplies> (SV)',
@@ -11529,6 +12114,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 8,
+  learnedat = 260,
   red = 260,
   yellow = 270,
   green = 275,
@@ -11561,6 +12147,7 @@ ProfessionatorDB.engineering = {
 
 },
 [23077] = {
+  id = 23077,
   name = 'Gyrofreeze Ice Reflector',
   recipe_source_alliance_short = 'Schematic: Gyrofreeze Ice Reflector',
   recipe_source_alliance_medium = 'Sold by: Xizzer Fizzbolt <Engineering Supplies> (W)',
@@ -11573,6 +12160,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 45,
+  learnedat = 260,
   red = 260,
   yellow = 280,
   green = 290,
@@ -11617,6 +12205,7 @@ ProfessionatorDB.engineering = {
 
 },
 [23078] = {
+  id = 23078,
   name = 'Goblin Jumper Cables XL',
   recipe_source_alliance_short = 'Schematic: Goblin Jumper Cables XL',
   recipe_source_alliance_medium = 'Dropped by: Plugger Spazzring (BD)',
@@ -11629,6 +12218,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 12.5,
+  learnedat = 265,
   red = 265,
   yellow = 285,
   green = 295,
@@ -11661,6 +12251,7 @@ ProfessionatorDB.engineering = {
 
 },
 [23079] = {
+  id = 23079,
   name = 'Major Recombobulator',
   recipe_source_alliance_short = 'Schematic: Major Recombobulator',
   recipe_source_alliance_medium = 'Contained in object: Gordok Tribute (DM)',
@@ -11673,6 +12264,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 25,
+  learnedat = 275,
   red = 275,
   yellow = 285,
   green = 290,
@@ -11697,6 +12289,7 @@ ProfessionatorDB.engineering = {
 
 },
 [23080] = {
+  id = 23080,
   name = 'Powerful Seaforium Charge',
   recipe_source_alliance_short = 'Schematic: Powerful Seaforium Charge',
   recipe_source_alliance_medium = 'Sold by: Xizzer Fizzbolt <Engineering Supplies> (W)',
@@ -11709,6 +12302,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 12.5,
+  learnedat = 275,
   red = 275,
   yellow = 275,
   green = 285,
@@ -11737,6 +12331,7 @@ ProfessionatorDB.engineering = {
 
 },
 [23081] = {
+  id = 23081,
   name = 'Hyper-Radiant Flame Reflector',
   recipe_source_alliance_short = 'Schematic: Hyper-Radiant Flame Reflector',
   recipe_source_alliance_medium = 'Dropped by: Solakar Flamewreath (BS)',
@@ -11749,6 +12344,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 45,
+  learnedat = 290,
   red = 290,
   yellow = 310,
   green = 320,
@@ -11789,6 +12385,7 @@ ProfessionatorDB.engineering = {
 
 },
 [23082] = {
+  id = 23082,
   name = 'Ultra-Flash Shadow Reflector',
   recipe_source_alliance_short = 'Schematic: Ultra-Flash Shadow Reflector',
   recipe_source_alliance_medium = 'Dropped by: Crimson Inquisitor (S)',
@@ -11801,6 +12398,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 45,
+  learnedat = 300,
   red = 300,
   yellow = 320,
   green = 330,
@@ -11845,6 +12443,7 @@ ProfessionatorDB.engineering = {
 
 },
 [23096] = {
+  id = 23096,
   name = 'Alarm-O-Bot',
   recipe_source_alliance_short = 'Schematic: Gnomish Alarm-O-Bot',
   recipe_source_alliance_medium = 'Dropped by: Weapon Technician (BD)',
@@ -11857,6 +12456,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 25,
+  learnedat = 265,
   red = 265,
   yellow = 275,
   green = 280,
@@ -11897,6 +12497,7 @@ ProfessionatorDB.engineering = {
 
 },
 [23129] = {
+  id = 23129,
   name = 'World Enlarger',
   recipe_source_alliance_short = 'Schematic: World Enlarger',
   recipe_source_alliance_medium = 'Dropped by: Weapon Technician (BD)',
@@ -11909,6 +12510,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 8,
+  learnedat = 260,
   red = 260,
   yellow = 260,
   green = 265,
@@ -11945,6 +12547,7 @@ ProfessionatorDB.engineering = {
 
 },
 [23486] = {
+  id = 23486,
   name = 'Dimensional Ripper - Everlook',
   recipe_source_alliance_short = 'Unknown',
   recipe_source_alliance_medium = 'Unknown',
@@ -11957,6 +12560,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = nil,
   training_cost = nil,
   cast_time = 45,
+  learnedat = 285,
   red = 0,
   yellow = 285,
   green = 295,
@@ -11997,6 +12601,7 @@ ProfessionatorDB.engineering = {
 
 },
 [23489] = {
+  id = 23489,
   name = 'Ultrasafe Transporter - Gadgetzan',
   recipe_source_alliance_short = 'Unknown',
   recipe_source_alliance_medium = 'Unknown',
@@ -12009,6 +12614,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = nil,
   training_cost = nil,
   cast_time = 45,
+  learnedat = 285,
   red = 0,
   yellow = 285,
   green = 295,
@@ -12053,6 +12659,7 @@ ProfessionatorDB.engineering = {
 
 },
 [23507] = {
+  id = 23507,
   name = 'Snake Burst Firework',
   recipe_source_alliance_short = 'Schematic: Snake Burst Firework',
   recipe_source_alliance_medium = 'Sold by: Zorbin Fandazzle (F)',
@@ -12065,6 +12672,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = true,
   training_cost = nil,
   cast_time = 12.5,
+  learnedat = 250,
   red = 250,
   yellow = 250,
   green = 260,
@@ -12089,6 +12697,7 @@ ProfessionatorDB.engineering = {
 
 },
 [24356] = {
+  id = 24356,
   name = 'Bloodvine Goggles',
   recipe_source_alliance_short = 'Schematic: Bloodvine Goggles',
   recipe_source_alliance_medium = 'Sold by: Rin\'wosho the Trader <Zandalar Supplies and Repair> (SV)',
@@ -12101,6 +12710,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = true,
   training_cost = nil,
   cast_time = 60,
+  learnedat = 300,
   red = 300,
   yellow = 320,
   green = 330,
@@ -12141,6 +12751,7 @@ ProfessionatorDB.engineering = {
 
 },
 [24357] = {
+  id = 24357,
   name = 'Bloodvine Lens',
   recipe_source_alliance_short = 'Schematic: Bloodvine Lens',
   recipe_source_alliance_medium = 'Sold by: Rin\'wosho the Trader <Zandalar Supplies and Repair> (SV)',
@@ -12153,6 +12764,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = true,
   training_cost = nil,
   cast_time = 60,
+  learnedat = 300,
   red = 300,
   yellow = 320,
   green = 330,
@@ -12193,6 +12805,7 @@ ProfessionatorDB.engineering = {
 
 },
 [26011] = {
+  id = 26011,
   name = 'Tranquil Mechanical Yeti',
   recipe_source_alliance_short = 'Unknown',
   recipe_source_alliance_medium = 'Unknown',
@@ -12205,6 +12818,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = nil,
   training_cost = nil,
   cast_time = 60,
+  learnedat = 250,
   red = 250,
   yellow = 320,
   green = 330,
@@ -12245,6 +12859,7 @@ ProfessionatorDB.engineering = {
 
 },
 [26416] = {
+  id = 26416,
   name = 'Small Blue Rocket',
   recipe_source_alliance_short = 'Schematic: Small Blue Rocket',
   recipe_source_alliance_medium = 'Contained in: Small Rocket Recipes',
@@ -12257,6 +12872,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = true,
   training_cost = nil,
   cast_time = 5.125,
+  learnedat = 125,
   red = 125,
   yellow = 125,
   green = 137,
@@ -12277,6 +12893,7 @@ ProfessionatorDB.engineering = {
 
 },
 [26417] = {
+  id = 26417,
   name = 'Small Green Rocket',
   recipe_source_alliance_short = 'Schematic: Small Green Rocket',
   recipe_source_alliance_medium = 'Contained in: Small Rocket Recipes',
@@ -12289,6 +12906,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = true,
   training_cost = nil,
   cast_time = 5.125,
+  learnedat = 125,
   red = 125,
   yellow = 125,
   green = 137,
@@ -12309,6 +12927,7 @@ ProfessionatorDB.engineering = {
 
 },
 [26418] = {
+  id = 26418,
   name = 'Small Red Rocket',
   recipe_source_alliance_short = 'Schematic: Small Red Rocket',
   recipe_source_alliance_medium = 'Contained in: Small Rocket Recipes',
@@ -12321,6 +12940,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = true,
   training_cost = nil,
   cast_time = 5.125,
+  learnedat = 125,
   red = 125,
   yellow = 125,
   green = 137,
@@ -12341,6 +12961,7 @@ ProfessionatorDB.engineering = {
 
 },
 [26420] = {
+  id = 26420,
   name = 'Large Blue Rocket',
   recipe_source_alliance_short = 'Schematic: Large Blue Rocket',
   recipe_source_alliance_medium = 'Contained in: Large Rocket Recipes',
@@ -12353,6 +12974,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = true,
   training_cost = nil,
   cast_time = 5.125,
+  learnedat = 175,
   red = 175,
   yellow = 175,
   green = 187,
@@ -12373,6 +12995,7 @@ ProfessionatorDB.engineering = {
 
 },
 [26421] = {
+  id = 26421,
   name = 'Large Green Rocket',
   recipe_source_alliance_short = 'Schematic: Large Green Rocket',
   recipe_source_alliance_medium = 'Contained in: Large Rocket Recipes',
@@ -12385,6 +13008,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = true,
   training_cost = nil,
   cast_time = 5.125,
+  learnedat = 175,
   red = 175,
   yellow = 175,
   green = 187,
@@ -12405,6 +13029,7 @@ ProfessionatorDB.engineering = {
 
 },
 [26422] = {
+  id = 26422,
   name = 'Large Red Rocket',
   recipe_source_alliance_short = 'Schematic: Large Red Rocket',
   recipe_source_alliance_medium = 'Contained in: Large Rocket Recipes',
@@ -12417,6 +13042,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = true,
   training_cost = nil,
   cast_time = 5.125,
+  learnedat = 175,
   red = 175,
   yellow = 175,
   green = 187,
@@ -12437,6 +13063,7 @@ ProfessionatorDB.engineering = {
 
 },
 [26423] = {
+  id = 26423,
   name = 'Blue Rocket Cluster',
   recipe_source_alliance_short = 'Schematic: Blue Rocket Cluster',
   recipe_source_alliance_medium = 'Contained in: Cluster Rocket Recipes',
@@ -12449,6 +13076,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = true,
   training_cost = nil,
   cast_time = 5.125,
+  learnedat = 225,
   red = 225,
   yellow = 225,
   green = 237,
@@ -12469,6 +13097,7 @@ ProfessionatorDB.engineering = {
 
 },
 [26424] = {
+  id = 26424,
   name = 'Green Rocket Cluster',
   recipe_source_alliance_short = 'Schematic: Green Rocket Cluster',
   recipe_source_alliance_medium = 'Contained in: Cluster Rocket Recipes',
@@ -12481,6 +13110,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = true,
   training_cost = nil,
   cast_time = 5.125,
+  learnedat = 225,
   red = 225,
   yellow = 225,
   green = 237,
@@ -12501,6 +13131,7 @@ ProfessionatorDB.engineering = {
 
 },
 [26425] = {
+  id = 26425,
   name = 'Red Rocket Cluster',
   recipe_source_alliance_short = 'Schematic: Red Rocket Cluster',
   recipe_source_alliance_medium = 'Contained in: Cluster Rocket Recipes',
@@ -12513,6 +13144,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = true,
   training_cost = nil,
   cast_time = 5.125,
+  learnedat = 225,
   red = 225,
   yellow = 225,
   green = 237,
@@ -12533,6 +13165,7 @@ ProfessionatorDB.engineering = {
 
 },
 [26426] = {
+  id = 26426,
   name = 'Large Blue Rocket Cluster',
   recipe_source_alliance_short = 'Schematic: Large Blue Rocket Cluster',
   recipe_source_alliance_medium = 'Contained in: Large Cluster Rocket Recipes',
@@ -12545,6 +13178,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = true,
   training_cost = nil,
   cast_time = 5.125,
+  learnedat = 275,
   red = 275,
   yellow = 275,
   green = 280,
@@ -12565,6 +13199,7 @@ ProfessionatorDB.engineering = {
 
 },
 [26427] = {
+  id = 26427,
   name = 'Large Green Rocket Cluster',
   recipe_source_alliance_short = 'Schematic: Large Green Rocket Cluster',
   recipe_source_alliance_medium = 'Contained in: Large Cluster Rocket Recipes',
@@ -12577,6 +13212,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = true,
   training_cost = nil,
   cast_time = 5.125,
+  learnedat = 275,
   red = 275,
   yellow = 275,
   green = 280,
@@ -12597,6 +13233,7 @@ ProfessionatorDB.engineering = {
 
 },
 [26428] = {
+  id = 26428,
   name = 'Large Red Rocket Cluster',
   recipe_source_alliance_short = 'Schematic: Large Red Rocket Cluster',
   recipe_source_alliance_medium = 'Contained in: Large Cluster Rocket Recipes',
@@ -12609,6 +13246,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = true,
   training_cost = nil,
   cast_time = 5.125,
+  learnedat = 275,
   red = 275,
   yellow = 275,
   green = 280,
@@ -12629,6 +13267,7 @@ ProfessionatorDB.engineering = {
 
 },
 [26442] = {
+  id = 26442,
   name = 'Firework Launcher',
   recipe_source_alliance_short = 'Schematic: Firework Launcher',
   recipe_source_alliance_medium = '',
@@ -12641,6 +13280,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 12.5,
+  learnedat = 225,
   red = 225,
   yellow = 245,
   green = 255,
@@ -12669,6 +13309,7 @@ ProfessionatorDB.engineering = {
 
 },
 [26443] = {
+  id = 26443,
   name = 'Firework Cluster Launcher',
   recipe_source_alliance_short = 'Schematic: Cluster Launcher',
   recipe_source_alliance_medium = '',
@@ -12681,6 +13322,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = false,
   training_cost = nil,
   cast_time = 12.5,
+  learnedat = 275,
   red = 275,
   yellow = 295,
   green = 305,
@@ -12709,6 +13351,7 @@ ProfessionatorDB.engineering = {
 
 },
 [28327] = {
+  id = 28327,
   name = 'Steam Tonk Controller',
   recipe_source_alliance_short = 'Schematic: Steam Tonk Controller',
   recipe_source_alliance_medium = '',
@@ -12721,6 +13364,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = true,
   training_cost = nil,
   cast_time = 8,
+  learnedat = 275,
   red = 275,
   yellow = 295,
   green = 305,
@@ -12753,6 +13397,7 @@ ProfessionatorDB.engineering = {
 
 },
 [424641] = {
+  id = 424641,
   name = 'Shredder Autosalvage Unit',
   recipe_source_alliance_short = 'Unknown',
   recipe_source_alliance_medium = 'Unknown',
@@ -12765,6 +13410,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = nil,
   training_cost = nil,
   cast_time = 12.5,
+  learnedat = 135,
   red = 0,
   yellow = 135,
   green = 140,
@@ -12797,6 +13443,7 @@ ProfessionatorDB.engineering = {
 
 },
 [431362] = {
+  id = 431362,
   name = 'Soul Vessel',
   recipe_source_alliance_short = 'Schematic: Soul Vessel',
   recipe_source_alliance_medium = 'Sold in: ',
@@ -12809,6 +13456,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = true,
   training_cost = nil,
   cast_time = 8,
+  learnedat = 9999,
   red = nil,
   yellow = nil,
   green = nil,
@@ -12837,6 +13485,7 @@ ProfessionatorDB.engineering = {
 
 },
 [435956] = {
+  id = 435956,
   name = 'Polished Truesilver Gears',
   recipe_source_alliance_short = 'Schematic: Polished Truesilver Gears',
   recipe_source_alliance_medium = 'Sold by: Ziri "The Wrench" Littlesprocket <Gearhead> (G)',
@@ -12849,6 +13498,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = true,
   training_cost = nil,
   cast_time = 8,
+  learnedat = 200,
   red = 0,
   yellow = 200,
   green = 210,
@@ -12873,6 +13523,7 @@ ProfessionatorDB.engineering = {
 
 },
 [435958] = {
+  id = 435958,
   name = 'Whirling Truesilver Gearwall',
   recipe_source_alliance_short = 'Schematic: Whirling Truesilver Gearwall',
   recipe_source_alliance_medium = 'Sold by: Ziri "The Wrench" Littlesprocket <Gearhead> (G)',
@@ -12885,6 +13536,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = true,
   training_cost = nil,
   cast_time = 45,
+  learnedat = 225,
   red = 0,
   yellow = 225,
   green = 232,
@@ -12925,6 +13577,7 @@ ProfessionatorDB.engineering = {
 
 },
 [435960] = {
+  id = 435960,
   name = 'Hyperconductive Goldwap',
   recipe_source_alliance_short = 'Schematic: Hyperconductive Goldwrap',
   recipe_source_alliance_medium = 'Sold by: Ziri "The Wrench" Littlesprocket <Gearhead> (G)',
@@ -12937,6 +13590,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = true,
   training_cost = nil,
   cast_time = 45,
+  learnedat = 225,
   red = 0,
   yellow = 225,
   green = 230,
@@ -12969,6 +13623,7 @@ ProfessionatorDB.engineering = {
 
 },
 [435964] = {
+  id = 435964,
   name = 'High-Yield Radiation Bomb',
   recipe_source_alliance_short = 'Schematic: High-Yield Radiation Bomb',
   recipe_source_alliance_medium = 'Sold by: Ziri "The Wrench" Littlesprocket <Gearhead> (G)',
@@ -12981,6 +13636,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = true,
   training_cost = nil,
   cast_time = 8,
+  learnedat = 225,
   red = 0,
   yellow = 225,
   green = 230,
@@ -13009,6 +13665,7 @@ ProfessionatorDB.engineering = {
 
 },
 [435966] = {
+  id = 435966,
   name = 'Ez-Thro Radiation Bomb',
   recipe_source_alliance_short = 'Schematic: Ez-Thro Radiation Bomb',
   recipe_source_alliance_medium = 'Sold by: Ziri "The Wrench" Littlesprocket <Gearhead> (G)',
@@ -13021,6 +13678,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = true,
   training_cost = nil,
   cast_time = 8,
+  learnedat = 225,
   red = 0,
   yellow = 225,
   green = 230,
@@ -13049,6 +13707,7 @@ ProfessionatorDB.engineering = {
 
 },
 [446236] = {
+  id = 446236,
   name = 'Void-Powered Invoker\'s Vambraces',
   recipe_source_alliance_short = 'Unknown',
   recipe_source_alliance_medium = 'Unknown',
@@ -13061,6 +13720,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = nil,
   training_cost = nil,
   cast_time = 45,
+  learnedat = 250,
   red = 0,
   yellow = 250,
   green = 255,
@@ -13097,6 +13757,7 @@ ProfessionatorDB.engineering = {
 
 },
 [446237] = {
+  id = 446237,
   name = 'Void-Powered Slayer\'s Vambraces',
   recipe_source_alliance_short = 'Unknown',
   recipe_source_alliance_medium = 'Unknown',
@@ -13109,6 +13770,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = nil,
   training_cost = nil,
   cast_time = 45,
+  learnedat = 250,
   red = 0,
   yellow = 250,
   green = 255,
@@ -13141,6 +13803,7 @@ ProfessionatorDB.engineering = {
 
 },
 [446238] = {
+  id = 446238,
   name = 'Void-Powered Protector\'s Vambraces',
   recipe_source_alliance_short = 'Unknown',
   recipe_source_alliance_medium = 'Unknown',
@@ -13153,6 +13816,7 @@ ProfessionatorDB.engineering = {
   recipe_item_id_bop = nil,
   training_cost = nil,
   cast_time = 45,
+  learnedat = 250,
   red = 0,
   yellow = 250,
   green = 255,
